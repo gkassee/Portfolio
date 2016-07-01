@@ -18,28 +18,48 @@ $(document).ready(function() {
 
 
 	$('#contact-button').click(function() {
-		$('#contact-wrapper').animate({'height': '82%', 'background-color': '#EAE3E3', 'background-color': '#E83A54'}, 1000);
-		$('#bio-body').animate({'color': '#B2A9A9'}, 2000);
-		$('#projects-wrapper').animate({'height': '20%', 'background-color': '#EAE3E3'}, 800);
-		$('#bio-wrapper').animate({'height': '10%', 'background-color': '#EAE3E3'}, 400);
+		$('#contact-wrapper').animate({'background-color': '#0DC478'}, 1000);
+		$('#contact-button').animate({'color': '#0DC478'}, 500);
+
+
+		$('#projects-wrapper').animate({'height': '10%', 'background-color': 'white'}, 700);
+		$('#projects-button').animate({'color': 'white'}, 500);
+
+
+		$('#bio-wrapper').animate({'height': '5%', 'background-color': 'white'}, 600);
+		$('#bio-button').animate({'color': 'white'}, 500);
 	})
 
 
 
 	$('#projects-button').click(function() {
-		$('#projects-wrapper').animate({'height': '72%', 'background-color': '#00F4BB', 'color': 'white'}, 560);
-		$('#bio-wrapper').animate({'height': '10%', 'background-color': '#EAE3E3'}, 400);
-		$('#bio-body').animate({'color': 'grey'}, 2000);
-		$('#contact-wrapper').animate({'background-color': '#EAE3E3'}, 1000);
+		$('#projects-wrapper').animate({'height': '78%', 'background-color': '#0095F9', 'color': 'white'}, 560);
+		$('#projects-button').animate({'color': '#0095F9'}, 500);
+
+
+		$('#contact-wrapper').animate({'background-color': 'white'}, 700);
+		$('#contact-button').animate({'color': 'white'}, 500);
+
+
+		$('#bio-wrapper').animate({'height': '5%', 'background-color': 'white'}, 600);
+		$('#bio-button').animate({'color': 'white'}, 500);
+
 	}) 
 
 
 
 	$('#bio-button').click(function() {
-		$('#projects-wrapper').animate({'height': '72%', 'background-color': '#EAE3E3'}, 400);
-		$('#bio-wrapper').animate({'height': '62%', 'background-color': 'blue'}, 2000);
-		$('#bio-body').animate({'color': 'white'}, 2000);
-		$('#contact-wrapper').animate({'background-color': '#EAE3E3'}, 1000);
+		$('#bio-wrapper').animate({'height': '75%', 'background-color': '#FF4956'}, 680);
+		$('#bio-button').animate({'color': '#FF4956'}, 700);
+
+
+		$('#contact-wrapper').animate({'background-color': 'white'}, 700);
+		$('#contact-button').animate({'color': 'white'}, 500);
+
+
+		$('#projects-wrapper').animate({'height': '78%', 'background-color': 'white'}, 600);
+		$('#projects-button').animate({'color': 'white'}, 500);
+
 	}) 
 		
 	
