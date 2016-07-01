@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
+  <script src="js/portfolio.js"></script>
 	<title>Greg Kassee - Web Developer</title>
 </head>
 <body>
-	<header><span>Greg Kassee</span> <span>- Web Developer -</span></header>
 
-	<ul>
-		<li>bio</li>
-		<li>projects</li>
-		<li>contact</li>
-	</ul>
+<div id="body-wrapper">
+		<header><span>Greg Kassee</span> <span>- Web Developer -</span></header>
 
+		<ul id="links">
+			<li id='bio-button'>bio</li>
+			<li id='projects-button'>projects</li>
+			<li id='contact-button'>contact</li>
+		</ul>
 
-	<div id="bio-wrapper">
-			<span>bio</span>
-
-				<p>
-					Marry me. That's why you always leave a note! I'm afraid I just blue myself. Whoa, this guy's straight?
-					That's what it said on 'Ask Jeeves.' That's why you always leave a note! Whoa, this guy's straight? I care deeply for nature.
-					Well, what do you expect, mother? I hear the jury's still out on science.
-				</p>
-	</div>
-
-
-	<div id="projects-wrapper">
-			<span>projects</span>
-				<div>Bandly Tree</div>
-				<div>Neighborino</div>
-				<div>JavaScript Jukebox</div>
-	</div>
+		<div id="contact-wrapper">
+			<div class="sub-wrapper">
+				<span>contact</span>
+					<ul>
+						<li>EMAIL</li>
+						<li>LINKEDIN</li>
+						<li>GITHUB</li>
+					</ul>
+				</div>
+		</div>
 
 
-	<div id="contact-wrapper">
-		<span>contact</span>
-			<ul>
-				<li>EMAIL</li>
-				<li>LINKEDIN</li>
-				<li>GITHUB</li>
-			</ul>
-	</div>
+		<div id="bio-wrapper">
+			<div class="sub-wrapper">
+				<span>bio</span>
+					<p id="bio-body">
+						Marry me. That's why you always leave a note! I'm afraid I just blue myself. Whoa, this guy's straight?
+						That's what it said on 'Ask Jeeves.' That's why you always leave a note! Whoa, this guy's straight? I care deeply for nature.
+						Well, what do you expect, mother? I hear the jury's still out on science.
+					</p>
+			</div>
+		</div>
 
+
+		<div id="projects-wrapper">
+			<div class="sub-wrapper">
+				<span id="projects">projects</span>
+					<div>Bandly Tree</div>
+					<div>Neighborino</div>
+					<div>JavaScript Jukebox</div>
+			</div>
+		</div>
+
+</div>
 </body>
 </html>
