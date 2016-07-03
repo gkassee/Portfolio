@@ -5,13 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
+  <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Lilita+One|Josefin+Slab:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
   <script src="js/portfolio.js"></script>
 	<title>Greg Kassee - Web Developer</title>
 </head>
 <body>
 
 <div id="body-wrapper">
-		<header><span>Greg Kassee</span> <span>- Web Developer -</span></header>
+		<header>
+			<span id="my_name">GREG KASSEE</span>
+			<br>
+			<span id="my_title">- WEB DEVELOPER -</span>
+		</header>
 
 		<ul id="links">
 			<li id='bio-button'>bio</li>
@@ -33,24 +39,45 @@
 
 		<div id="projects-wrapper">
 			<div class="sub-wrapper">
+
 				<span id="projects">projects</span>
-					<div>Bandly Tree</div>
-					<div>Neighborino</div>
-					<div>JavaScript Jukebox</div>
+				<br>
+					<a href='https://github.com/hossainamzad/Bandly_tree'><img src='images/bandly-screen.png' id="bandly"></a>
+
+					<a href='https://neighborino.herokuapp.com'><img src='images/neighborino-screen.png' id="neighborino"></a>
+
+					<a href='http://nycda.zone/gregory765/Jukebox_Object_Oriented_JavaScript/'><img src='images/jukebox-screen.png' id="jukebox"></a>
+
+					<div id='neighborino-info'>
+					<p></p>
+					</div>
+
 			</div>
 		</div>
 
 
 		<div id="bio-wrapper">
 			<div class="sub-wrapper">
-				<span>bio</span>
+
+				<span class="content-head">bio</span>
+					<span id="hi">Hi!</span>
 					<p id="bio-body">
-						Marry me. That's why you always leave a note! I'm afraid I just blue myself. Whoa, this guy's straight?
+						That's why you always leave a note! I'm afraid I just blue myself. Whoa, this guy's straight?
 						That's what it said on 'Ask Jeeves.' That's why you always leave a note! Whoa, this guy's straight? I care deeply for nature.
 						Well, what do you expect, mother? I hear the jury's still out on science.
 					</p>
 			</div>
 		</div>
+
+
+<!-- Post It Tab -->
+
+
+		<!-- <div class="quote-container">
+					 <blockquote class="note yellow">
+					 bio
+					 </blockquote>
+		</div> -->
 
 </div>
 </body>

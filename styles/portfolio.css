@@ -1,5 +1,6 @@
 body {
-	font-family: futura, sans-serif;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
 	color: white;
 	background-color: #303030;
 	margin: 0;
@@ -13,19 +14,46 @@ body {
 }
 
 header {
-	width: 750px;
+	font-family: 'Miriam Libre', sans-serif;
+	text-align: center;
+	/*border: 1px solid white;*/
 	float: left;
+	padding: 20px 15px 30px 35px;
+}
+
+#my_name {
 	color: white;
-	background-color: #303030;
-	font-size: 50px;
-	/*background-color: linear-gradient(#E83A54, #E83550);*/
-	padding: 30px 15px 30px 15px;
+	font-weight: 700;
+	text-shadow: 0px -1px #FF4956, 
+							 0px -2px #FF4956, 
+							 0px -3px #FF4956, 
+							 0px -4px #FF4956, 
+							 0px -5px #FF4956;
+	font-size: 65px;
+}
+
+#my_title {
+	font-size: 18px;
+	color: #FF4956;
+}
+
+#bio-button {
+	color: #FF4956;
+	cursor: pointer;
+}
+
+#projects-button {
+	cursor: pointer;
+}
+
+#contact-button {
+	cursor: pointer;
 }
 
 #links {
 	font-size: 20px;
 	float: right;
-	padding: 60px;
+	margin: 60px;
 }
 
 ul {
@@ -42,7 +70,7 @@ li {
 	position: absolute;
 	z-index: 1;
 	background-color: white;
-	height: 81%;
+	height: 80%;
 	width: 100%;
 	bottom: 0;
 	border: 2px solid grey;
@@ -55,7 +83,7 @@ li {
 	position: absolute;
 	z-index: 2;
 	background-color: white;
-	height: 78%;
+	height: 77%;
 	width: 100%;
 	bottom: 0;
 	border: 2px solid grey;
@@ -63,31 +91,98 @@ li {
 	border-radius: 40px 40px 0px 0px;
 }
 
+#bandly {
+	width: 150px;
+	border-radius: 100%;
+	border: 6px red solid;
+}
+
+#neighborino {
+	width: 150px;
+	border-radius: 100%;
+	border: 6px red solid;
+}
+
+#jukebox {
+	width: 150px;
+	border-radius: 100%;
+	border: 6px red solid;
+}
+
 #bio-wrapper {
 	/*display: none;*/
 	position: absolute;
 	z-index: 3;
 	background-color: #FF4956;
-	/*background-color: #E83A54;*/
-	/*background-color-image: url(./images/black_denim.png);*/
-	height: 75%;
+	height: 74%;
 	bottom: 0;
 	border-top: 3px solid grey;
 	box-shadow: 0px -1px 10px #303030;
 	border-radius: 40px 40px 0px 0px;
 }
 
-#bio-button {
-	color: #FF4956;
+#hi {
+	margin: 0;
+	padding: 0;
+	float: left;
+	border: 1px solid white;
+	width: 39.5%;
+	font-size: 23vw;
+}
+
+#bio-body {
+	margin: 0;
+	padding: 0;
+	float: right;
+	border: 1px solid white;
+	width: 59.5%;
+	font-size: 2vw;
+}
+
+.content-head {
+	width: 100%;
+	display: inline-block;
 }
 
 .sub-wrapper {
 	width: 80%;
+	height: 100%;
 	margin: 0 auto;
-	/*border: 1px solid black;*/
 	margin-top: 15px;
 	text-align: center;
 }
+
+
+
+
+/*For post-it tabs*/
+
+/*.quote-container {
+  z-index: 4;
+  top: 150px;
+  position: relative;
+  margin-left: 60%;
+}
+
+.note {
+  color: #333;
+  position: relative;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 30px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
+
+.yellow {
+  background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}*/
 
 
 
