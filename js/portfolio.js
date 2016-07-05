@@ -46,6 +46,12 @@ $(document).ready(function() {
 
 		$('#modal').css('opacity', '0.92');
 
+		// $('#bandly').animate({'text-shadow': '0px -1px #0095F9, 0px -2px #0095F9, 0px -3px #0095F9, 0px -4px #0095F9'}, 560)
+
+		// $('#neighborino').animate({'text-shadow': '0px -1px #0095F9, 0px -2px #0095F9, 0px -3px #0095F9, 0px -4px #0095F9'}, 560)
+
+		// $('#jukebox').animate({'text-shadow': '0px -1px #0095F9, 0px -2px #0095F9, 0px -3px #0095F9, 0px -4px #0095F9'}, 560)
+
 		$('#my_name').animate({'text-shadow': '0px -1px #0095F9, 0px -2px #0095F9, 0px -3px #0095F9, 0px -4px #0095F9, 0px -5px #0095F9'}, 500);
 		$('#my_title').css({'color':'#0095F9'}, 500);
 		$('#projects-button').animate({'color': '#0095F9'}, 500);
@@ -91,18 +97,27 @@ $(document).ready(function() {
 		$('#neighborino-info').hide();
 		$('#jukebox-info').hide();
 		$('#bandly-info').show();
+		$('#bandly').css('border-bottom', '2px solid white');
+		$('#neighborino').css('border-bottom', 'none');
+		$('#jukebox').css('border-bottom', 'none');
 	})
 
 	$('#neighborino').click(function() {
 		$('#jukebox-info').hide();
 		$('#bandly-info').hide();
 		$('#neighborino-info').show();
+		$('#neighborino').css('border-bottom', '2px solid white');
+		$('#bandly').css('border-bottom', 'none');
+		$('#jukebox').css('border-bottom', 'none');
 	})
 
 	$('#jukebox').click(function() {
 		$('#neighborino-info').hide();
 		$('#bandly-info').hide();
 		$('#jukebox-info').show();
+		$('#jukebox').css('border-bottom', '2px solid white');
+		$('#neighborino').css('border-bottom', 'none');
+		$('#bandly').css('border-bottom', 'none');
 	})
 		
 	

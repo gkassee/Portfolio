@@ -112,6 +112,12 @@ header {
 	border-radius: 40px 40px 0px 0px;
 }
 
+#contact-header {
+	padding-top: 100px;
+	font-weight: 300;
+	font-size: 25px;
+}
+
 .contact-button {
 	text-decoration: none;
 	color: white;
@@ -155,6 +161,21 @@ header {
 	list-style: none;
 }
 
+.tool-wrapper {
+	display: inline-block;
+	width: 100%;
+	padding: 10px;
+}
+
+.tool {
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	background: #FF4956;
+	border-radius: 7px;
+	font-size: 17px;
+}
+
 #contacters {
 	margin-top: 15%;
 	padding: 0;
@@ -166,69 +187,81 @@ header {
 
 #bandly {
 	cursor: pointer;
-	font-size: 40px;
+	font-size: 28px;
 	font-weight: 300;
 	display: inline;
-	padding: 20px 40px 5px 40px;
+	margin: 50px 100px 5px 100px;
+	padding: 10px;
 }
 
 #bandly:hover {
-	text-shadow: 0px -1px #376FD6,
-							 0px -2px #376FD6,
-							 0px -3px #376FD6,
-							 0px -4px #376FD6;
-	border-bottom: 2px solid white;
+	color: lightgrey;
 }
 
 #neighborino {
 	cursor: pointer;
-	font-size: 40px;
+	font-size: 28px;
 	font-weight: 300;
-	padding: 20px 40px 5px 40px;
+	margin: 30px 100px 5px 100px;
+	padding: 10px;
+	border-bottom: 2px solid white;
 }
 
 #neighborino:hover {
-	text-shadow: 0px -1px #376FD6,
-							 0px -2px #376FD6,
-							 0px -3px #376FD6,
-							 0px -4px #376FD6;
-	border-bottom: 2px solid white;
+	color: lightgrey;
 }
 
 #jukebox {
 	cursor: pointer;
 	font-weight: 300;
-	font-size: 40px;
-	padding: 20px 40px 5px 40px;
+	font-size: 28px;
+	margin: 30px 100px 5px 100px;
+	padding: 10px;
 }
 
 #jukebox:hover {
-	text-shadow: 0px -1px #376FD6,
-							 0px -2px #376FD6,
-							 0px -3px #376FD6,
-							 0px -4px #376FD6;
-	border-bottom: 2px solid white;
+	color: lightgrey;
 }
-
-/*#java-color {
-	color: #D72638;
-}*/
 
 #bandly-info {
-	float: right;
-	text-align: left;
-	width: 50%;
-	font-size: 20px;
-	border: 1px solid white;
-}
-
-#neighborino-info {
 	display: none;
 	float: right;
 	text-align: left;
 	width: 50%;
 	font-size: 20px;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
+	margin-top: 2%;
+}
+
+#bandly-info ul {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+#bandly-info li {
+	list-style: none;
+}
+
+#bandly-info p {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+#neighborino-info {
+	float: right;
+	text-align: left;
+	width: 50%;
+	font-size: 20px;
+	/*border: 1px solid white;*/
+	margin-top: 2%;
+}
+
+#neighborino-info p {
+	clear: both;
+	padding: 0;
+	margin: 0;
 }
 
 #jukebox-info {
@@ -237,11 +270,13 @@ header {
 	text-align: left;
 	width: 50%;
 	font-size: 20px;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
+	margin-top: 2%;
 }
 
 #bio-wrapper {
 	/*display: none;*/
+	width: 100%;
 	position: absolute;
 	z-index: 6;
 	background-color: #FF4956;
@@ -262,6 +297,7 @@ header {
 }
 
 #bio-body {
+	text-align: left;
 	margin: 0;
 	padding: 0;
 	float: right;
@@ -282,6 +318,9 @@ header {
 	margin: 0 auto;
 	margin-top: 15px;
 	text-align: center;
+}
+
+.dev-line {
 }
 
 
