@@ -6,11 +6,16 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
-  <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700|Lilita+One|Josefin+Slab:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Assistant:400,800,200,300|Martel+Sans:400,200,300,900|Miriam+Libre:700|Playball|Alegreya+Sans+SC|Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <script src="https://use.fontawesome.com/bcd99e97d3.js"></script>
   <script src="js/portfolio.js"></script>
 	<title>Greg Kassee - Web Developer</title>
 </head>
 <body>
+
+<div id="modal">
+  </div>
+
 
 <div id="body-wrapper">
 		<header>
@@ -27,29 +32,69 @@
 
 		<div id="contact-wrapper">
 			<div class="sub-wrapper">
-				<span>contact</span>
-					<ul>
-						<li>EMAIL</li>
-						<li>LINKEDIN</li>
-						<li>GITHUB</li>
-					</ul>
-				</div>
+
+				<ul id="contacters">
+					<li class="contacters-each"><span class="contact-button"><a target="_blank" href="https://www.linkedin.com/in/gregkassee"><i class="fa fa-linkedin-square" aria-hidden="true"><span class="contact-text"> LinkedIn</span></i></a></span></li>
+
+					<li class="contacters-each"><span class="contact-button"><a href="mailto:gkassee@gmail.com"><i class="fa fa-envelope" aria-hidden="true"><span class="contact-text"> Email</span></i></a></span></li>
+
+					<li class="contacters-each"><span class="contact-button"><a target="_blank" href="https://github.com/gkassee"><i class="fa fa-github-square" aria-hidden="true"><span class="contact-text"> GitHub</span></i></a></span></li>
+				</ul>
+
+			</div>
 		</div>
 
 
 		<div id="projects-wrapper">
 			<div class="sub-wrapper">
 
-				<span id="projects">projects</span>
-				<br>
-					<a href='https://github.com/hossainamzad/Bandly_tree'><img src='images/bandly-screen.png' id="bandly"></a>
+					<div id="project-icons">
+						<ul>
+						<li id="bandly">BANDLY TREE</li>
 
-					<a href='https://neighborino.herokuapp.com'><img src='images/neighborino-screen.png' id="neighborino"></a>
+						<li id="neighborino">NEIGHBORINO</li>
 
-					<a href='http://nycda.zone/gregory765/Jukebox_Object_Oriented_JavaScript/'><img src='images/jukebox-screen.png' id="jukebox"></a>
+						<li id="jukebox"><span id="java-color">JAVASCRIPT</span> JUKEBOX</a>
+						</ul>
+					</div>
+
+					<div id='bandly-info'>
+						<p>
+						A single page application that allows users to explore the musical influences of their favorite musicians.
+						</p>
+							<ul>
+								<li>This application was conceived and built to a functional state by a team of 4 during a one week sprint.</li>
+								<li>Built using Ruby on Rails, JavaScript, jQuery, AJAX and PostgreSQL.</li>
+								<li>Uses the Nokogiri Ruby Gem to scrape musician data from AllMusic.com.</li>
+								<li>Uses the Spotify API to play samples of a musician's top songs.</li>
+							</ul>
+						<p>*This project is in ongoing development.</p>
+					</div>
+
 
 					<div id='neighborino-info'>
-					<p></p>
+						<p>
+						Designed to bring neighborhoods together, Neighborino allows you to communicate with users within a 1 mile radius of your location. 
+						</p>
+							<ul>
+								<li>Built using Ruby on Rails, the Twitter API, the Google Maps API and PostgreSQL.</li>
+								<li>Features W3C Geolocation through the Google Maps API.</li>
+								<li>Features OAuth through the Twitter API.</li>
+								<li>Allows full CRUD.</li>
+								<li>Features responsive design.</li>
+							</ul>
+						<p>*This project is in ongoing development.</p>
+					</div>
+
+
+					<div id='jukebox-info'>
+						<p>
+						A simple music player that allows users can cycle through a pre-selected playlist of songs and add their own songs to the mix.
+						</p>
+							<ul>
+								<li>Built entirely in JavaScript.</li>
+								<li>Features responsive design.</li>
+							</ul>
 					</div>
 
 			</div>
@@ -70,10 +115,24 @@
 		</div>
 
 
-<!-- Post It Tab -->
+<!-- Post It Tabs -->
 
 
-		<!-- <div class="quote-container">
+		<!-- <div id="contact-postit">
+					 <blockquote class="note yellow">
+					 contact
+					 </blockquote>
+		</div>
+
+
+		<div id="project-postit">
+					 <blockquote class="note yellow">
+					 projects
+					 </blockquote>
+		</div>
+
+
+		<div id="bio-postit">
 					 <blockquote class="note yellow">
 					 bio
 					 </blockquote>

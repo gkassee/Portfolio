@@ -1,11 +1,39 @@
 body {
-	font-family: 'Josefin Slab', serif;
-	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	color: white;
-	background-color: #303030;
+	/*background-color: #303030;*/
+	background-image: url(https://s-media-cache-ak0.pinimg.com/236x/c5/31/0c/c5310cd8e766595915405683d7bd3cb1.jpg);
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+}
+
+a {
+	color: #0DC478;
+}
+
+a:visited { 
+	text-decoration: none; 
+	color:#0DC478; 
+}
+
+/*a:hover { 
+	text-decoration: none; 
+	color: blue; 
+}*/
+
+#modal {
+	/*display: none;*/
+	z-index: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;	
+	background-color: #303030;
+	opacity: 0.97;
+	
 }
 
 #body-wrapper {
@@ -14,6 +42,8 @@ body {
 }
 
 header {
+	position: relative;
+	z-index: 1;
 	font-family: 'Miriam Libre', sans-serif;
 	text-align: center;
 	/*border: 1px solid white;*/
@@ -51,24 +81,28 @@ header {
 }
 
 #links {
-	font-size: 20px;
+	position: relative;
+	z-index: 1;
+	font-weight: 400;
+	margin: 75px 60px 60px 60px;
+	font-size: 22px;
 	float: right;
-	margin: 60px;
+	/*border-bottom: 1px solid lightgrey;*/
+	padding: 0;
+	color: white;
 }
 
-ul {
-	margin: 0;
-}
-
-li {
+#links li {
 	display: inline;
-	padding-left: 30px;
+	/*padding-left: 30px;*/
+	text-align: center;
+	padding: 26px;
 }
 
 #contact-wrapper {
 	/*display: none;*/
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	background-color: white;
 	height: 80%;
 	width: 100%;
@@ -78,10 +112,31 @@ li {
 	border-radius: 40px 40px 0px 0px;
 }
 
+.contact-button {
+	text-decoration: none;
+	color: white;
+	font-size: 80px;
+	padding: 10px;
+	margin: 100px 50px 50px 50px;
+	background: #303030;
+	opacity: .4;
+	border-radius: 35px;
+}
+
+.contact-button:hover {
+	background: white;
+	opacity: 1;
+}
+
+.contact-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
 #projects-wrapper {
 	/*display: none;*/
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 	background-color: white;
 	height: 77%;
 	width: 100%;
@@ -91,28 +146,104 @@ li {
 	border-radius: 40px 40px 0px 0px;
 }
 
+#project-icons li {
+	display: inline-block;
+	margin: 0;
+}
+
+#project-icons ul {
+	list-style: none;
+}
+
+#contacters {
+	margin-top: 15%;
+	padding: 0;
+}
+
+.contacters-each {
+	display: inline-block;
+}
+
 #bandly {
-	width: 150px;
-	border-radius: 100%;
-	border: 6px red solid;
+	cursor: pointer;
+	font-size: 40px;
+	font-weight: 300;
+	display: inline;
+	padding: 20px 40px 5px 40px;
+}
+
+#bandly:hover {
+	text-shadow: 0px -1px #376FD6,
+							 0px -2px #376FD6,
+							 0px -3px #376FD6,
+							 0px -4px #376FD6;
+	border-bottom: 2px solid white;
 }
 
 #neighborino {
-	width: 150px;
-	border-radius: 100%;
-	border: 6px red solid;
+	cursor: pointer;
+	font-size: 40px;
+	font-weight: 300;
+	padding: 20px 40px 5px 40px;
+}
+
+#neighborino:hover {
+	text-shadow: 0px -1px #376FD6,
+							 0px -2px #376FD6,
+							 0px -3px #376FD6,
+							 0px -4px #376FD6;
+	border-bottom: 2px solid white;
 }
 
 #jukebox {
-	width: 150px;
-	border-radius: 100%;
-	border: 6px red solid;
+	cursor: pointer;
+	font-weight: 300;
+	font-size: 40px;
+	padding: 20px 40px 5px 40px;
+}
+
+#jukebox:hover {
+	text-shadow: 0px -1px #376FD6,
+							 0px -2px #376FD6,
+							 0px -3px #376FD6,
+							 0px -4px #376FD6;
+	border-bottom: 2px solid white;
+}
+
+/*#java-color {
+	color: #D72638;
+}*/
+
+#bandly-info {
+	float: right;
+	text-align: left;
+	width: 50%;
+	font-size: 20px;
+	border: 1px solid white;
+}
+
+#neighborino-info {
+	display: none;
+	float: right;
+	text-align: left;
+	width: 50%;
+	font-size: 20px;
+	border: 1px solid white;
+}
+
+#jukebox-info {
+	display: none;
+	float: right;
+	text-align: left;
+	width: 50%;
+	font-size: 20px;
+	border: 1px solid white;
 }
 
 #bio-wrapper {
 	/*display: none;*/
 	position: absolute;
-	z-index: 3;
+	z-index: 6;
 	background-color: #FF4956;
 	height: 74%;
 	bottom: 0;
@@ -145,7 +276,8 @@ li {
 }
 
 .sub-wrapper {
-	width: 80%;
+	display: block;
+	width: 95%;
 	height: 100%;
 	margin: 0 auto;
 	margin-top: 15px;
@@ -157,11 +289,11 @@ li {
 
 /*For post-it tabs*/
 
-/*.quote-container {
-  z-index: 4;
-  top: 150px;
+/*#contact-postit {
+  z-index: 1;
+  top: 100px;
   position: relative;
-  margin-left: 60%;
+  margin-left: 80%;
 }
 
 .note {
@@ -182,6 +314,23 @@ li {
   -o-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
+}
+
+
+
+#project-postit {
+  z-index: 3;
+  top: -20px;
+  position: relative;
+  margin-left: 42%;
+}
+
+
+#bio-postit {
+  z-index: 5;
+  top: -160px;
+  position: relative;
+  margin-left: 0%;
 }*/
 
 
