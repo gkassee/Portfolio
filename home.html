@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
-  <link href='https://fonts.googleapis.com/css?family=Assistant:400,800,200,300|Martel+Sans:400,200,300,900|Miriam+Libre:700|Playball|Alegreya+Sans+SC|Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Assistant:400,800,200,300|Martel+Sans:400,200,300,900|Miriam+Libre:700|Playball|Alegreya+Sans+SC|Lato:100,300,300italic,400,700,900' rel='stylesheet' type='text/css'>
   <script src="https://use.fontawesome.com/bcd99e97d3.js"></script>
   <script src="js/portfolio.js"></script>
 	<title>Greg Kassee - Web Developer</title>
@@ -32,15 +32,27 @@
 		<div id="contact-wrapper">
 			<div class="sub-wrapper">
 
-				<span id="contact-header">I'm available for fulltime and freelance work, so let's get in touch:</span>
+				<span id="contact-header">I'm available for full-time and freelance work, so let's get in touch:</span>
 
-				<ul id="contacters">
-					<li class="contacters-each"><span class="contact-button"><a target="_blank" href="https://www.linkedin.com/in/gregkassee"><i class="fa fa-linkedin-square" aria-hidden="true"><span class="contact-text"> LinkedIn</span></i></a></span></li>
+					<div id="link-wrapper">
 
-					<li class="contacters-each"><span class="contact-button"><a href="mailto:gkassee@gmail.com"><i class="fa fa-envelope" aria-hidden="true"><span class="contact-text"> Email</span></i></a></span></li>
+						<ul id="contacters-1">
+							<li class="contacters-each"><span class="contact-button"><a href="mailto:gkassee@gmail.com"><i class="fa fa-envelope" aria-hidden="true"><span class="contact-text"> Email</span></i></a></span></li>
+							<br>
+							<br>
+							<br>
+							<li class="contacters-each"><span class="contact-button"><a target="_blank" href="GregKassee-July62016.pdf"><i class="fa fa-file-text-o" aria-hidden="true"></i><span class="contact-text"> Resume</span></i></a></span></li>
+						</ul>
 
-					<li class="contacters-each"><span class="contact-button"><a target="_blank" href="https://github.com/gkassee"><i class="fa fa-github-square" aria-hidden="true"><span class="contact-text"> GitHub</span></i></a></span></li>
-				</ul>
+						<ul id="contacters-2">
+							<li class="contacters-each"><span class="contact-button"><a target="_blank" href="https://github.com/gkassee"><i class="fa fa-github-square" aria-hidden="true"><span class="contact-text"> GitHub</span></i></a></span></li>
+							<br>
+							<br>
+							<br>
+							<li class="contacters-each"><span class="contact-button"><a target="_blank" href="https://www.linkedin.com/in/gregkassee"><i class="fa fa-linkedin-square" aria-hidden="true"><span class="contact-text"> LinkedIn</span></i></a></span></li>
+						</ul>
+
+					</div>
 
 			</div>
 		</div>
@@ -59,44 +71,57 @@
 
 						</ul>
 
+					<div id="neighborino-content-wrapper">
 
-					<div id='neighborino-info'>
-						<p>
-						Designed to bring neighborhoods together, Neighborino allows you to communicate with users within a 1 mile radius of your location. 
-						</p>
-							<div class="tool-wrapper">
-								<span class="tool">Ruby on Rails</span> <span class="tool">Twitter API</span> <span class="tool">OAuth</span> <span class="tool">Google Maps API</span> <span class="tool">W3C Geoloacation</span> <span class="tool">PostgreSQL</span> <span class="tool">CRUD</span> <span class="tool">Responsive Design</span>
-							</div>
-							<p>*This project is in ongoing development.</p>
+						<img src='./images/neighborino-screen.png' class='screens'>
+
+						<div id='neighborino-info'>
+							<p>
+							Designed to bring neighborhoods together, Neighborino allows you to communicate with users within a 1 mile radius of your location. 
+							</p>
+								<div class="tool-wrapper">
+									<span class="tool">Ruby on Rails</span> <span class="tool">Twitter API</span> <span class="tool">OAuth</span> <span class="tool">Google Maps API</span> <span class="tool">W3C Geoloacation</span> <span class="tool">PostgreSQL</span> <span class="tool">CRUD</span> <span class="tool">Responsive Design</span>
+								</div>
+								<p class="dev-line">*This project is in ongoing development.</p>
+						</div>
 					</div>
 
 
-					<div id='bandly-info'>
-						<p>
-						A single page application that allows users to explore the musical influences of their favorite musicians.
-						</p>
-							<div class="tool-wrapper">
-								<span class="tool">Ruby on Rails</span> <span class="tool">JavaScript</span> <span class="tool">jQuery</span> <span class="tool">AJAX</span> <span class="tool">Spotify API</span> <span class="tool">PostgreSQL</span>
-							</div>
+					<div id="bandly-content-wrapper">
 
-							<ul>
-								<li>This application was conceived and built to a functional state by a team of 4 during a one week sprint.</li>
-								<li>Uses the Nokogiri Ruby Gem to scrape musician data from AllMusic.com.</li>
-								<li>Uses the Spotify API to play samples of a musician's top songs.</li>
-							</ul>
-							
-							<p class="dev-line">*This project is in ongoing development.</p>
+						<img src='./images/bandly-screen.png' class='screens'>
+
+						<div id='bandly-info'>
+							<p>
+							A single page application that allows users to explore the musical influences of their favorite musicians.
+							</p>
+								<div class="tool-wrapper">
+									<span class="tool">Ruby on Rails</span> <span class="tool">JavaScript</span> <span class="tool">jQuery</span> <span class="tool">AJAX</span> <span class="tool">Spotify API</span> <span class="tool">PostgreSQL</span>
+								</div>
+
+								<ul>
+									<li>This application was conceived and built to a functional state by a team of 4 during a one week sprint.</li>
+									<li>Uses the Nokogiri Ruby Gem to scrape musician data from AllMusic.com.</li>
+									<li>Uses the Spotify API to play samples of a musician's top songs.</li>
+								</ul>
+								<br>
+								<p class="dev-line">*This project is in ongoing development.</p>
+						</div>
 					</div>
 
 
-					<div id='jukebox-info'>
-						<p>
-						A simple music player that allows users can cycle through a pre-selected playlist of songs and add their own songs to the mix.
-						</p>
-							<ul>
-								<li>Built entirely in JavaScript.</li>
-								<li>Features responsive design.</li>
-							</ul>
+					<div id="jukebox-content-wrapper">
+
+						<img src='./images/jukebox-screen.png' class='screens'>
+
+						<div id='jukebox-info'>
+							<p>
+							A simple music player that allows users can cycle through a pre-selected playlist of songs and add their own songs to the mix.
+							</p>
+								<div class="tool-wrapper">
+									<span class="tool">JavaScript</span> <span class="tool">Responsive Design</span>
+								</div>
+						</div>
 					</div>
 
 			</div>
@@ -109,8 +134,10 @@
 				<!-- <span class="content-head">bio</span> -->
 					<span id="hi">Hi!</span>
 					<p id="bio-body">
-						My name is Greg and I am a full-stack web developer based in Philadelphia, PA. 
-					</p>
+						My name is Greg and I am a full-stack web developer based in Philadelphia, PA. I love building things and solving problems. I'm currently seeking opportunities that let me pursue both of those things together.
+						<br>
+						<br>
+						I have proven to be a quick learner who can deliver results. I'm open to projects that will challenge me and allow me to continue building my skills. 
 			</div>
 		</div>
 

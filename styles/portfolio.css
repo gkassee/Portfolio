@@ -1,3 +1,5 @@
+/*Site-Wide*/
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -11,17 +13,13 @@ body {
 
 a {
 	color: #0DC478;
+	text-decoration: none;
 }
 
 a:visited { 
 	text-decoration: none; 
 	color:#0DC478; 
 }
-
-/*a:hover { 
-	text-decoration: none; 
-	color: blue; 
-}*/
 
 #modal {
 	/*display: none;*/
@@ -33,13 +31,16 @@ a:visited {
 	height: 100%;	
 	background-color: #303030;
 	opacity: 0.97;
-	
 }
 
 #body-wrapper {
 	/*width: 90%;*/
 	/*margin: 0 auto;*/
 }
+
+
+
+/*Header Info*/
 
 header {
 	position: relative;
@@ -51,7 +52,8 @@ header {
 	padding: 20px 15px 30px 35px;
 }
 
-.my_name {
+/*Sets my name to load with red shadow*/
+.my_name { 
 	color: white;
 	font-weight: 700;
 	text-shadow: 0px -1px #FF4956, 
@@ -62,6 +64,7 @@ header {
 	font-size: 65px;
 }
 
+/*For jQuery to re-add red shadow to my name*/
 .my_name_red {
 	color: white;
 	font-weight: 700;
@@ -73,6 +76,7 @@ header {
 	font-size: 65px;
 }
 
+/*For jQuery to add blue shadow to my name*/
 .my_name_blue {
 	color: white;
 	font-weight: 700;
@@ -84,6 +88,7 @@ header {
 	font-size: 65px;
 }
 
+/*For jQuery to add green shadow to my name*/
 .my_name_green {
 	color: white;
 	font-weight: 700;
@@ -95,11 +100,13 @@ header {
 	font-size: 65px;
 }
 
+/*For Web Developer sub-head*/
 #my_title {
 	font-size: 18px;
 	color: #FF4956;
 }
 
+/*Nav links*/
 #bio-button {
 	z-index: 100;
 	color: #FF4956;
@@ -123,7 +130,6 @@ header {
 	margin: 75px 60px 60px 60px;
 	font-size: 22px;
 	float: right;
-	/*border-bottom: 1px solid lightgrey;*/
 	padding: 0;
 	color: white;
 }
@@ -135,6 +141,11 @@ header {
 	padding: 26px;
 }
 
+
+
+
+
+/*Contact Div*/
 #contact-wrapper {
 	/*display: none;*/
 	position: absolute;
@@ -148,28 +159,46 @@ header {
 }
 
 #contact-header {
+	position: relative;
+	top: 30px;
+	text-align: center;
 	font-weight: 300;
-	font-size: 25px;
+	font-size: 28px;
+	/*border: 1px solid white;*/
 }
 
-#contacters {
-	margin-top: 15%;
+#contacters-1 {
+	float: left;
+	width: 49%;
+	list-style: none;
+	margin-top: 7%;
+	height: 60%;
 	padding: 0;
 }
 
-.contacters-each {
-	display: inline-block;
+#link-wrapper {
+	position: relative;
+	top: 40px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#contacters-2 {
+	float: right;
+	width: 49%;
+	list-style: none;
+	margin-top: 7%;
+	height: 60%;
+	padding: 0;
 }
 
 .contact-button {
-	text-decoration: none;
 	color: white;
-	font-size: 80px;
+	font-size: 65px;
 	padding: 10px;
-	margin: 100px 3% 100px 3%;
 	background: #303030;
 	opacity: .4;
-	border-radius: 35px;
+	border-radius: 20px;
 }
 
 .contact-button:hover {
@@ -179,8 +208,14 @@ header {
 
 .contact-text {
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 }
+
+
+
+
+
+/*Projects Div*/
 
 #projects-wrapper {
 	/*display: none;*/
@@ -197,6 +232,7 @@ header {
 
 #project-icons li {
 	display: inline-block;
+	list-style: none;
 	margin: 0;
 }
 
@@ -212,11 +248,11 @@ header {
 
 .tool {
 	float: left;
-	margin: 3px;
+	margin: 3px 2px 3px 2px;
 	padding: 5px;
-	background: #FF4956;
-	border-radius: 7px;
-	font-size: 17px;
+	background: white;
+	border-radius: 8px;
+	font-size: 15px;
 }
 
 #bandly {
@@ -257,24 +293,49 @@ header {
 	color: lightgrey;
 }
 
-#bandly-info {
+#neighborino-content-wrapper {
+	position: relative;
+	top: 30px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#bandly-content-wrapper {
 	display: none;
+	position: relative;
+	top: 30px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#jukebox-content-wrapper {
+	display: none;
+	position: relative;
+	top: 30px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.screens {
+	float: left;
+	width: 475px;
+	opacity: 0;
+	border-radius: 10px;
+}
+
+#bandly-info {
 	float: right;
 	text-align: left;
 	width: 50%;
-	font-size: 20px;
+	font-size: 18px;
 	/*border: 1px solid white;*/
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 }
 
 #bandly-info ul {
 	clear: both;
 	padding: 0;
 	margin: 0;
-}
-
-#bandly-info li {
-	list-style: none;
 }
 
 #bandly-info p {
@@ -287,9 +348,9 @@ header {
 	float: right;
 	text-align: left;
 	width: 50%;
-	font-size: 20px;
+	font-size: 18px;
 	/*border: 1px solid white;*/
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 }
 
 #neighborino-info p {
@@ -299,14 +360,19 @@ header {
 }
 
 #jukebox-info {
-	display: none;
 	float: right;
 	text-align: left;
 	width: 50%;
-	font-size: 20px;
+	font-size: 18px;
 	/*border: 1px solid white;*/
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 }
+
+
+
+
+
+/*Bio Div*/
 
 #bio-wrapper {
 	/*display: none;*/
@@ -333,10 +399,10 @@ header {
 #bio-body {
 	text-align: left;
 	margin: 0;
-	padding: 0;
-	float: right;
+	padding-top: 70px;
+	float: left;
 	/*border: 1px solid white;*/
-	width: 59.5%;
+	width: 55%;
 	font-size: 2vw;
 }
 
@@ -355,6 +421,9 @@ header {
 }
 
 .dev-line {
+	font-size: 15px;
+	/*font-weight: 100;*/
+	/*font-style: italic;*/
 }
 
 
