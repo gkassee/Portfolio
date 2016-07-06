@@ -68,15 +68,18 @@ header {
 }
 
 #bio-button {
+	z-index: 100;
 	color: #FF4956;
 	cursor: pointer;
 }
 
 #projects-button {
+	z-index: 100;
 	cursor: pointer;
 }
 
 #contact-button {
+	z-index: 100;
 	cursor: pointer;
 }
 
@@ -107,15 +110,22 @@ header {
 	height: 80%;
 	width: 100%;
 	bottom: 0;
-	border: 2px solid grey;
 	box-shadow: 0px -1px 10px black;
 	border-radius: 40px 40px 0px 0px;
 }
 
 #contact-header {
-	padding-top: 100px;
 	font-weight: 300;
 	font-size: 25px;
+}
+
+#contacters {
+	margin-top: 15%;
+	padding: 0;
+}
+
+.contacters-each {
+	display: inline-block;
 }
 
 .contact-button {
@@ -123,7 +133,7 @@ header {
 	color: white;
 	font-size: 80px;
 	padding: 10px;
-	margin: 100px 50px 50px 50px;
+	margin: 100px 3% 100px 3%;
 	background: #303030;
 	opacity: .4;
 	border-radius: 35px;
@@ -147,7 +157,7 @@ header {
 	height: 77%;
 	width: 100%;
 	bottom: 0;
-	border: 2px solid grey;
+	/*border: 2px solid grey;*/
 	box-shadow: 0px -1px 10px #303030;
 	border-radius: 40px 40px 0px 0px;
 }
@@ -174,15 +184,6 @@ header {
 	background: #FF4956;
 	border-radius: 7px;
 	font-size: 17px;
-}
-
-#contacters {
-	margin-top: 15%;
-	padding: 0;
-}
-
-.contacters-each {
-	display: inline-block;
 }
 
 #bandly {
@@ -282,7 +283,7 @@ header {
 	background-color: #FF4956;
 	height: 74%;
 	bottom: 0;
-	border-top: 3px solid grey;
+	/*border-top: 3px solid grey;*/
 	box-shadow: 0px -1px 10px #303030;
 	border-radius: 40px 40px 0px 0px;
 }
@@ -291,7 +292,7 @@ header {
 	margin: 0;
 	padding: 0;
 	float: left;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	width: 39.5%;
 	font-size: 23vw;
 }
@@ -301,7 +302,7 @@ header {
 	margin: 0;
 	padding: 0;
 	float: right;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	width: 59.5%;
 	font-size: 2vw;
 }
