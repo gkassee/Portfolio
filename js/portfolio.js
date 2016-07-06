@@ -24,7 +24,9 @@ $(document).ready(function() {
 
 		$('#modal').css('opacity', '0.92');
 
-		$('#my_name').animate({'text-shadow': '0px -1px #0DC478, 0px -2px #0DC478, 0px -3px #0DC478, 0px -4px #0DC478, 0px -5px #0DC478'}, 500);
+		$('.my_name').removeClass("my_name_red");
+		$('.my_name').removeClass("my_name_blue");
+		$('.my_name').addClass("my_name_green");
 		$('#my_title').css({'color':'#0DC478'}, 500);
 		$('#contact-button').animate({'color': '#0DC478'}, 500);
 
@@ -52,7 +54,9 @@ $(document).ready(function() {
 
 		// $('#jukebox').animate({'text-shadow': '0px -1px #0095F9, 0px -2px #0095F9, 0px -3px #0095F9, 0px -4px #0095F9'}, 560)
 
-		$('#my_name').animate({'text-shadow': '0px -1px #0095F9, 0px -2px #0095F9, 0px -3px #0095F9, 0px -4px #0095F9, 0px -5px #0095F9'}, 500);
+		$('.my_name').removeClass("my_name_green");
+		$('.my_name').removeClass("my_name_red");
+		$('.my_name').addClass("my_name_blue");
 		$('#my_title').css({'color':'#0095F9'}, 500);
 		$('#projects-button').animate({'color': '#0095F9'}, 500);
 
@@ -74,7 +78,9 @@ $(document).ready(function() {
 
 		$('#modal').css('opacity', '0.97');
 
-		$('#my_name').animate({'text-shadow': '0px -1px #FF4956, 0px -2px #FF4956, 0px -3px #FF4956, 0px -4px #FF4956, 0px -5px #FF4956'}, 500);
+		$('.my_name').removeClass("my_name_green");
+		$('.my_name').removeClass("my_name_blue");
+		$('.my_name').addClass("my_name_red");
 		$('#my_title').css({'color':'#FF4956'}, 500);
 		$('#bio-button').animate({'color': '#FF4956'}, 700);
 
