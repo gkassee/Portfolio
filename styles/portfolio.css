@@ -169,10 +169,17 @@ header {
 
 #contacters-1 {
 	float: left;
-	width: 49%;
+	width: 45%;
 	list-style: none;
 	margin-top: 7%;
-	height: 60%;
+	padding: 0;
+}
+
+#contacters-2 {
+	float: right;
+	width: 45%;
+	list-style: none;
+	margin-top: 7%;
 	padding: 0;
 }
 
@@ -183,25 +190,17 @@ header {
 	margin: 0 auto;
 }
 
-#contacters-2 {
-	float: right;
-	width: 49%;
-	list-style: none;
-	margin-top: 7%;
-	height: 60%;
-	padding: 0;
-}
-
-.contact-button {
+.contacters-each {
 	color: white;
-	font-size: 65px;
-	padding: 10px;
+	font-size: 63px;
+	padding: 5px 10px 10px 10px;
 	background: #303030;
 	opacity: .4;
 	border-radius: 20px;
+	width: 320px;
 }
 
-.contact-button:hover {
+.contacters-each:hover {
 	background: white;
 	opacity: 1;
 }
@@ -230,10 +229,10 @@ header {
 	border-radius: 40px 40px 0px 0px;
 }
 
-#project-icons li {
+#project-icons span {
 	display: inline-block;
 	list-style: none;
-	margin: 0;
+	margin: 10px 25px 20px 25px;
 }
 
 #project-icons ul {
@@ -259,8 +258,6 @@ header {
 	cursor: pointer;
 	font-size: 28px;
 	font-weight: 300;
-	display: inline;
-	margin: 50px 100px 5px 100px;
 	padding: 10px;
 }
 
@@ -272,7 +269,6 @@ header {
 	cursor: pointer;
 	font-size: 28px;
 	font-weight: 300;
-	margin: 30px 100px 5px 100px;
 	padding: 10px;
 	border-bottom: 2px solid white;
 }
@@ -285,7 +281,6 @@ header {
 	cursor: pointer;
 	font-weight: 300;
 	font-size: 28px;
-	margin: 30px 100px 5px 100px;
 	padding: 10px;
 }
 
@@ -324,10 +319,11 @@ header {
 }
 
 #bandly-info {
+	/*font-weight: 400;*/
 	float: right;
 	text-align: left;
 	width: 50%;
-	font-size: 18px;
+	font-size: 17px;
 	/*border: 1px solid white;*/
 	/*margin-top: 2%;*/
 }
@@ -348,7 +344,7 @@ header {
 	float: right;
 	text-align: left;
 	width: 50%;
-	font-size: 18px;
+	font-size: 17px;
 	/*border: 1px solid white;*/
 	/*margin-top: 2%;*/
 }
@@ -363,9 +359,14 @@ header {
 	float: right;
 	text-align: left;
 	width: 50%;
-	font-size: 18px;
+	font-size: 17px;
 	/*border: 1px solid white;*/
 	/*margin-top: 2%;*/
+}
+
+#jukebox-info p {
+	padding: 0;
+	margin: 0;
 }
 
 
