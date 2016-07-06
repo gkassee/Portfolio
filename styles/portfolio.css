@@ -208,6 +208,11 @@ header {
 .contact-text {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	color: #0DC478;
+}
+
+i {
+	color: #0DC478;
 }
 
 

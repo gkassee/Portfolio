@@ -31,13 +31,13 @@ $(document).ready(function() {
 		$('#contact-button').animate({'color': '#0DC478'}, 500);
 
 
-		$('#projects-wrapper').delay(200).animate({'height': '10%', 'background-color': 'white'}, 500);
+		$('#projects-wrapper').delay(170).animate({'height': '10%', 'background-color': 'white'}, 400);
 		$('.tool').animate({'background-color': 'white'}, 800);
 		$('.screens').animate({'opacity': '0'}, 500);
 		$('#projects-button').animate({'color': 'white'}, 500);
 
 
-		$('#bio-wrapper').animate({'height': '5%', 'background-color': 'white'}, 500);
+		$('#bio-wrapper').animate({'height': '5%', 'background-color': 'white'}, 400);
 		$('#bio-button').animate({'color': 'white'}, 500);
 	})
 
@@ -45,7 +45,7 @@ $(document).ready(function() {
 
 	$('#projects-button').click(function() {
 		$('#projects-wrapper').animate({'height': '77%', 'background-color': '#0095F9'}, 500);
-		$('.tool').animate({'background-color': '#FF4956'}, 500);
+		$('.tool').animate({'background-color': '#FF4956'}, 800);
 		$('.screens').animate({'opacity': '1'}, 800);
 
 		$('body').css('background', 'url(https://s32.postimg.org/6ds3m8pxh/projects_pattern.png)');
@@ -69,14 +69,14 @@ $(document).ready(function() {
 		$('#contact-button').animate({'color': 'white'}, 500);
 
 
-		$('#bio-wrapper').animate({'height': '5%', 'background-color': 'white'}, 500);
+		$('#bio-wrapper').animate({'height': '5%', 'background-color': 'white'}, 400);
 		$('#bio-button').animate({'color': 'white'}, 500);
 	}) 
 
 
 
 	$('#bio-button').click(function() {
-		$('#bio-wrapper').delay(200).animate({'height': '74%', 'background-color': '#FF4956'}, 500);
+		$('#bio-wrapper').delay(170).animate({'height': '74%', 'background-color': '#FF4956'}, 350);
 
 		$('body').css('background', 'url(https://s-media-cache-ak0.pinimg.com/236x/c5/31/0c/c5310cd8e766595915405683d7bd3cb1.jpg)');
 
@@ -93,7 +93,7 @@ $(document).ready(function() {
 		$('#contact-button').animate({'color': 'white'}, 500);
 
 
-		$('#projects-wrapper').animate({'height': '77%', 'background-color': 'white'}, 500);
+		$('#projects-wrapper').animate({'height': '77%', 'background-color': 'white'}, 350);
 		$('.tool').animate({'background-color': 'white'}, 800);
 		$('.screens').animate({'opacity': '0'}, 500);
 		$('#projects-button').animate({'color': 'white'}, 500);
