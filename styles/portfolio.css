@@ -1,3 +1,5 @@
+/*DESKTOP*/
+
 /*Site-Wide*/
 body {
 	font-family: 'Lato', sans-serif;
@@ -246,7 +248,7 @@ i {
 .tool-wrapper {
 	display: inline-block;
 	width: 100%;
-	padding: 10px;
+	padding: 10px 10px 10px 0px;
 }
 
 .tool {
@@ -320,6 +322,7 @@ i {
 	width: 475px;
 	opacity: 0;
 	border-radius: 10px;
+	margin-right: 1%;
 }
 
 #bandly-info {
@@ -434,50 +437,426 @@ i {
 
 
 
-/*For post-it tabs*/
+/*DESKTOP 2 - Smaller*/
+@media all and (min-width: 1000px) and (max-width: 1219px) {
 
-/*#contact-postit {
-  z-index: 1;
-  top: 100px;
-  position: relative;
-  margin-left: 80%;
+	/*Projects Div*/
+	#bandly {
+		font-size: 25px;
+		padding: 7px;
+	}
+
+	#neighborino {
+		font-size: 25px;
+		padding: 7px;
+		border-bottom: 2px solid white;
+	}
+
+	#jukebox {
+		font-size: 25px;
+		padding: 7px;
+	}
+
+	#neighborino-info {
+		width: 45%;
+		font-size: 17px;
+	}
+
+	#bandly-info {
+	width: 45%;
+	font-size: 17px;
+	}
+
+	#jukebox-info {
+		width: 45%;
+		font-size: 17px;
+	}
+
+	.screens {
+	width: 48%;
+	opacity: 0;
+	border-radius: 10px;
+	}
+
+
+
+
+	.contacters-each {
+	font-size: 57px;
+	width: 280px;
 }
 
-.note {
-  color: #333;
-  position: relative;
-  width: 300px;
-  height: 100px;
-  margin: 0 auto;
-  padding: 20px;
-  font-size: 30px;
-  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
-}
-
-.yellow {
-  background: #eae672;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  transform: rotate(2deg);
 }
 
 
 
-#project-postit {
-  z-index: 3;
-  top: -20px;
-  position: relative;
-  margin-left: 42%;
+
+
+/*iPHONE 6 PLUS - Vertical*/
+@media all and (min-width: 319px) and (max-width: 1000px) {
+
+
+
+
+	/*Header Info*/
+
+	header {
+		position: relative;
+		z-index: 1;
+		font-family: 'Miriam Libre', sans-serif;
+		text-align: center;
+		/*border: 1px solid white;*/
+		width: 100%;
+		padding: 20px 15px 20px 35px;
+	}
+
+	/*Sets my name to load with red shadow*/
+.my_name { 
+	color: white;
+	font-weight: 700;
+	text-shadow: 0px -1px #FF4956, 
+							 0px -2px #FF4956, 
+							 0px -3px #FF4956, 
+							 0px -4px #FF4956, 
+							 0px -5px #FF4956;
+	font-size: 40px;
 }
 
+/*For jQuery to re-add red shadow to my name*/
+.my_name_red {
+	color: white;
+	font-weight: 700;
+	text-shadow: 0px -1px #FF4956, 
+							 0px -2px #FF4956, 
+							 0px -3px #FF4956, 
+							 0px -4px #FF4956, 
+							 0px -5px #FF4956;
+	font-size: 40px;
+}
 
-#bio-postit {
-  z-index: 5;
-  top: -160px;
-  position: relative;
-  margin-left: 0%;
-}*/
+/*For jQuery to add blue shadow to my name*/
+.my_name_blue {
+	color: white;
+	font-weight: 700;
+	text-shadow: 0px -1px #FF4956, 
+							 0px -2px #FF4956, 
+							 0px -3px #FF4956, 
+							 0px -4px #FF4956, 
+							 0px -5px #FF4956;
+	font-size: 40px;
+}
+
+/*For jQuery to add green shadow to my name*/
+.my_name_green {
+	color: white;
+	font-weight: 700;
+	text-shadow: 0px -1px #FF4956, 
+							 0px -2px #FF4956, 
+							 0px -3px #FF4956, 
+							 0px -4px #FF4956, 
+							 0px -5px #FF4956;
+	font-size: 40px;
+}
+
+	/*For Web Developer sub-head*/
+	#my_title {
+		font-size: 15px;
+		color: #FF4956;
+	}
+
+	#links {
+		z-index: 1;
+		font-weight: 400;
+		top: 0px;
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+		width: 90%;
+		margin: 0 auto;
+		display: inline-block;
+		text-align: center;
+	}
+
+	#links li {
+		display: inline;
+		/*padding-left: 30px;*/
+		text-align: center;
+		padding: 0px 10px 0px 10px;
+	}
 
 
+
+
+
+	/*Contact Div*/
+	#contact-wrapper {
+		/*display: none;*/
+		height: 80%;
+		border-top: 1px solid grey;
+		box-shadow: none;
+		border-radius: 0px;
+	}
+
+	#contact-header {
+		top: 15px;
+		font-size: 14px;
+		/*border: 1px solid white;*/
+	}
+
+	#contacters-1 {
+		float: none;
+		width: 100%;
+		list-style: none;
+		margin-top: 7%;
+		padding: 0;
+	}
+
+	#contacters-2 {
+		float: none;
+		width: 100%;
+		list-style: none;
+		margin-top: 7%;
+		padding: 0;
+	}
+
+	#link-wrapper {
+		position: relative;
+		top: 40px;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.contacters-each {
+		color: white;
+		font-size: 40px;
+		padding: 5px 10px 10px 10px;
+		margin-bottom: 30px;
+		background: #303030;
+		opacity: .4;
+		border-radius: 15px;
+		width: 200px;
+	}
+
+	.contacters-each:hover {
+		background: white;
+		opacity: 1;
+	}
+
+	.contact-text {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: #0DC478;
+	}
+
+	i {
+		color: #0DC478;
+	}
+
+
+
+
+
+	/*Projects Div*/
+
+	#projects-wrapper {
+		/*display: none;*/
+		height: 77%;
+		border-top: 1px solid grey;
+		box-shadow: none;
+		border-radius: 0px;
+	}
+
+	#project-icons span {
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px 5px 0px;
+	}
+
+	#project-icons ul {
+		list-style: none;
+	}
+
+	.tool-wrapper {
+		display: inline-block;
+		width: 100%;
+		padding: 10px 10px 10px 0px;
+	}
+
+	.tool {
+		float: left;
+		margin: 3px 2px 3px 2px;
+		padding: 5px;
+		background: white;
+		border-radius: 8px;
+		font-size: 10px;
+	}
+
+	#bandly {
+		cursor: pointer;
+		font-size: 10px;
+		font-weight: 300;
+		padding: 10px;
+		width: 75px;
+	}
+
+	#bandly:hover {
+		color: lightgrey;
+	}
+
+	#neighborino {
+		cursor: pointer;
+		font-size: 10px;
+		font-weight: 300;
+		padding: 10px;
+		border-bottom: 2px solid white;
+		width: 75px;
+	}
+
+	#neighborino:hover {
+		color: lightgrey;
+	}
+
+	#jukebox {
+		cursor: pointer;
+		font-weight: 300;
+		font-size: 10px;
+		padding: 10px;
+		width: 120px;
+	}
+
+	#jukebox:hover {
+		color: lightgrey;
+	}
+
+	#neighborino-content-wrapper {
+		position: relative;
+		top: 30px;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	#bandly-content-wrapper {
+		display: none;
+		position: relative;
+		top: 30px;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	#jukebox-content-wrapper {
+		display: none;
+		position: relative;
+		top: 30px;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.screens {
+		float: none;
+		width: 49%;
+		opacity: 0;
+		border-radius: 10px;
+		margin-right: 1%;
+	}
+
+	#bandly-info {
+		width: 90%;
+		font-size: 10px;
+		/*border: 1px solid white;*/
+		/*margin-top: 2%;*/
+	}
+
+	#bandly-info ul {
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+
+	#bandly-info p {
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+
+	#neighborino-info {
+		float: none;
+		text-align: left;
+		width: 90%;
+		font-size: 10px;
+		/*border: 1px solid white;*/
+		/*margin-top: 2%;*/
+	}
+
+	#neighborino-info p {
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+
+	#jukebox-info {
+		float: right;
+		text-align: left;
+		width: 50%;
+		font-size: 10px;
+		/*border: 1px solid white;*/
+		/*margin-top: 2%;*/
+	}
+
+	#jukebox-info p {
+		padding: 0;
+		margin: 0;
+	}
+
+	.dev-line {
+		font-size: 11px;
+	}
+
+
+
+
+
+	/*Bio Div*/
+
+	#bio-wrapper {
+		display: none;
+		height: 74%;
+		border-top: 1px solid grey;
+		box-shadow: none;
+		border-radius: 0px;
+	}
+
+	#hi {
+		margin: 3% 0 0 0;
+		padding: 0;
+		float: left;
+		/*border: 1px solid white;*/
+		width: 39.5%;
+		font-size: 23vw;
+	}
+
+	#bio-body {
+		text-align: left;
+		margin: 0;
+		padding-top: 70px;
+		float: left;
+		/*border: 1px solid white;*/
+		width: 55%;
+		font-size: 1.7vw;
+	}
+
+	.content-head {
+		width: 100%;
+		display: inline-block;
+	}
+
+	.sub-wrapper {
+		display: block;
+		width: 95%;
+		height: 90%;
+		margin: 0 auto;
+		margin-top: 15px;
+		text-align: center;
+	}
+
+
+}
