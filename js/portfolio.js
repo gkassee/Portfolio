@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 
 		$('#projects-wrapper').delay(170).animate({'height': '10%', 'background-color': 'white'}, 400);
-		$('.tool').animate({'background-color': 'white'}, 800);
+		$('.tool').animate({'background-color': 'white'}, 600);
 		$('.screens').animate({'opacity': '0'}, 500);
 		$('#projects-button').animate({'color': 'white'}, 500);
 
@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 
 		$('#projects-wrapper').animate({'height': '77%', 'background-color': 'white'}, 350);
-		$('.tool').animate({'background-color': 'white'}, 800);
+		$('.tool').animate({'background-color': 'white'}, 600);
 		$('.screens').animate({'opacity': '0'}, 500);
 		$('#projects-button').animate({'color': 'white'}, 500);
 	}) 
