@@ -496,7 +496,9 @@ i {
 @media all and (min-width: 319px) and (max-width: 1000px) {
 
 
-
+	body {
+		overflow-x: hidden;
+	}
 
 	/*Header Info*/
 
@@ -818,7 +820,7 @@ i {
 	/*Bio Div*/
 
 	#bio-wrapper {
-		display: none;
+		/*display: none;*/
 		height: 74%;
 		border-top: 1px solid grey;
 		box-shadow: none;
