@@ -16,6 +16,14 @@
 
 $(document).ready(function() {
 
+	$(document).ready(function() {
+    // run screen size test on initial page load
+    checkSize();
+
+    // run test on resize of the window
+    $(window).resize(checkSize);
+	});
+
 
 	$('#contact-button').click(function() {
 		$('#contact-wrapper').animate({'background-color': '#0DC478'}, 500);
@@ -134,3 +142,82 @@ $(document).ready(function() {
 		
 	
 })
+
+
+
+
+
+//Function to the css rule
+function checkSize(){
+    if ($("#links").css("width") == '100%' ){
+        
+			  $('#contact-button').click(function() {
+			  	$('#projects-wrapper').hide();
+			  	$('#bio-wrapper').hide();
+					$('#contact-wrapper').show();
+
+					$('body').css('background', 'url(https://s31.postimg.org/ns9l9namz/contact_pattern.png)');
+
+					$('#modal').css('opacity', '0.92');
+
+					$('.my_name').removeClass("my_name_red");
+					$('.my_name').removeClass("my_name_blue");
+					$('.my_name').addClass("my_name_green");
+					$('#my_title').css({'color':'#0DC478'}, 500);
+
+					$('#projects-button').css('color', 'white');
+
+					$('#contact-button').css('color', '#0DC478');
+
+					$('#bio-button').css('color', 'white');
+				})
+
+
+
+				$('#projects-button').click(function() {
+					$('#contact-wrapper').hide();
+			  	$('#bio-wrapper').hide();
+					$('#projects-wrapper').show();
+
+					$('body').css('background', 'url(https://s32.postimg.org/6ds3m8pxh/projects_pattern.png)');
+
+					$('#modal').css('opacity', '0.92');
+
+					$('.my_name').removeClass("my_name_green");
+					$('.my_name').removeClass("my_name_red");
+					$('.my_name').addClass("my_name_blue");
+					$('#my_title').css({'color':'#0095F9'}, 500);
+
+					$('#projects-button').css('color', '#0095F9');
+
+					$('#contact-button').css('color', 'white');
+
+					$('#bio-button').css('color', 'white');
+				}) 
+
+
+
+				$('#bio-button').click(function() {
+					$('#contact-wrapper').hide();
+					$('#projects-wrapper').hide();
+					$('#bio-wrapper').show();
+
+					$('body').css('background', 'url(https://s-media-cache-ak0.pinimg.com/236x/c5/31/0c/c5310cd8e766595915405683d7bd3cb1.jpg)');
+
+					$('#modal').css('opacity', '0.97');
+
+					$('.my_name').removeClass("my_name_green");
+					$('.my_name').removeClass("my_name_blue");
+					$('.my_name').addClass("my_name_red");
+					$('#my_title').css({'color':'#FF4956'}, 500);
+
+					$('#projects-button').css('color', 'white');
+
+					$('#contact-button').css('color', 'white');
+
+					$('#bio-button').css('color', '#FF4956');
+				}) 
+
+    }
+
+}

@@ -500,6 +500,7 @@ i {
 
 	body {
 		overflow: hidden;
+		
 	}
 
 	/*Header Info*/
@@ -616,12 +617,10 @@ i {
 
 	/*Contact Div*/
 	#contact-wrapper {
-		/*display: none;*/
+		display: none;
 		height: 80%;
-		box-shadow: 0px -.5px 5px black;
-		border-radius: 15px 15px 0px 0px;
-		/*box-shadow: none;
-		border-radius: 0px;*/
+		border-radius: 0px 0px 0px 0px;
+		background-color: #0DC478;
 	}
 
 	#contact-header {
@@ -686,12 +685,10 @@ i {
 	/*Projects Div*/
 
 	#projects-wrapper {
-		/*display: none;*/
-		height: 77%;
-		box-shadow: 0px -.5px 5px lightgrey;
-		border-radius: 15px 15px 0px 0px;
-		/*box-shadow: none;
-		border-radius: 0px;*/
+		display: none;
+		height: 80%;
+		border-radius: 0px 0px 0px 0px;
+		background-color: #0095F9;
 	}
 
 	#project-icons span {
@@ -714,7 +711,7 @@ i {
 		float: left;
 		margin: 3px 2px 3px 2px;
 		padding: 5px;
-		background: white;
+		background: #FF4956;
 		border-radius: 8px;
 		font-size: 3vw;
 	}
@@ -782,7 +779,7 @@ i {
 	.screens {
 		float: none;
 		width: 55%;
-		opacity: 0;
+		opacity: 1;
 		border-radius: 10px;
 		margin: 0;
 	}
@@ -855,11 +852,9 @@ i {
 
 	#bio-wrapper {
 		/*display: none;*/
-		height: 74%;
-		box-shadow: 0px -.5px 5px lightgrey;
-		border-radius: 15px 15px 0px 0px;
-		/*box-shadow: none;*/
-		/*border-radius: 0px;*/
+		height: 80%;
+		border-radius: 0px 0px 0px 0px;
+		background-color: #FF4956;
 	}
 
 	#hi {
