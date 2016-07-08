@@ -738,7 +738,7 @@ i {
 		top: 15px;
 		width: 85%;
 		margin: 0 auto;
-		overflow: scroll;
+		overflow-y:auto
 	}
 
 	#bandly-content-wrapper {
@@ -747,7 +747,7 @@ i {
 		top: 30px;
 		width: 85%;
 		margin: 0 auto;
-		overflow: scroll;
+		overflow-y:auto
 	}
 
 	#jukebox-content-wrapper {
@@ -756,7 +756,7 @@ i {
 		top: 30px;
 		width: 85%;
 		margin: 0 auto;
-		overflow: scroll;
+		overflow-y:auto
 	}
 
 	.screens {
