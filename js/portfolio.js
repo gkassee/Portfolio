@@ -56,7 +56,7 @@ $(document).ready(function() {
 
 
 function checkSize(){
-	if ($("#contacters-1").css("left") == 'none' ){
+	if ($("#contacters-1").css("float") == 'left' ){
 
 		$('#contact-button').click(function() {
 			$('#contact-wrapper').animate({'background-color': '#0DC478'}, 500);
