@@ -592,33 +592,15 @@ i {
 		border-radius: 7px;
 	}
 
-	#bio-button {
-		/*background-color: #FF4956;*/
-		/*color: white;*/
-	}
-
-	#projects-button {
-		/*background-color: white;*/
-		/*color: #0095F9;*/
-	}
-
-	#contact-button {
-		/*background-color: white;*/
-		/*color: #0DC478;*/
-	}
-
-
-
-
-
 
 
 
 
 	/*Contact Div*/
 	#contact-wrapper {
-		display: none;
-		height: 80%;
+		/*display: none;*/
+		visibility: hidden;
+		height: 75%;
 		border-radius: 0px 0px 0px 0px;
 		background-color: #0DC478;
 	}
@@ -685,8 +667,9 @@ i {
 	/*Projects Div*/
 
 	#projects-wrapper {
-		display: none;
-		height: 80%;
+		/*display: none;*/
+		visibility: hidden;
+		height: 75%;
 		border-radius: 0px 0px 0px 0px;
 		background-color: #0095F9;
 	}
@@ -852,7 +835,8 @@ i {
 
 	#bio-wrapper {
 		/*display: none;*/
-		height: 80%;
+		visibility: show;
+		height: 75%;
 		border-radius: 0px 0px 0px 0px;
 		background-color: #FF4956;
 	}
