@@ -5,19 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
-	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
+	<link rel="stylesheet" type="text/css" href="styles/v2-portfolio.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
   <link href='https://fonts.googleapis.com/css?family=Assistant:400,800,200,300|Martel+Sans:400,200,300,900|Miriam+Libre:700|Playball|Alegreya+Sans+SC|Lato:100,300,300italic,400,700,900' rel='stylesheet' type='text/css'>
   <script src="https://use.fontawesome.com/bcd99e97d3.js"></script>
-	<script src="js/portfolio.js"></script>
-	<script src="js/breakpoints.js"></script>
+	<script src="js/v2-portfolio.js"></script>
 	<title>Greg Kassee - Web Developer</title>
 </head>
 <body>
 
-<div id="modal">
-  </div>
+
 
 
 <div id="body-wrapper">
@@ -25,37 +23,40 @@
 			<span class="my_name">GREG KASSEE</span>
 			<br>
 			<span id="my_title">- WEB DEVELOPER -</span>
+
+			<div id="lightbox">
+  		</div>
+
 		</header>
 
 		<ul id="links">
-			<li id='bio-button'>about me</li>
+			<li id='bio-button'>about</li>
 			<li id='projects-button'>projects</li>
 			<li id='contact-button'>contact</li>
 		</ul>
 
-		<div id="contact-wrapper">
+
+
+
+
+		<div id="bio-wrapper">
 			<div class="sub-wrapper">
 
-				<span id="contact-header">I'm available for full-time and freelance work, so let's get in touch:</span>
-
-					<div id="link-wrapper">
-
-						<ul id="contacters-1">
-							<a href="mailto:gkassee@gmail.com"><li class="contacters-each"><i class="fa fa-envelope" aria-hidden="true"><span class="contact-text"> Email</span></i></li></a>
-
-							<a target="_blank" href="GregKassee-July72016.pdf"><li class="contacters-each"><i class="fa fa-file-text-o" aria-hidden="true"></i><span class="contact-text"> Resume</span></i></li></a>
-						</ul>
-
-						<ul id="contacters-2">
-							<a target="_blank" href="https://github.com/gkassee"><li class="contacters-each"><i class="fa fa-github-square" aria-hidden="true"><span class="contact-text"> GitHub</span></i></li></a>
-
-							<a target="_blank" href="https://www.linkedin.com/in/gregkassee"><li class="contacters-each"><i class="fa fa-linkedin-square" aria-hidden="true"><span class="contact-text"> LinkedIn</span></i></li></a>
-						</ul>
-
-					</div>
-
+					<span id="hi">Hi!</span>
+					<p id="bio-body">
+						My name is Greg and I am a full-stack web developer based in Philadelphia. Originally from an event management background, I picked up coding while seeking a more creative and analytical challenge. After years of working in events, I have the problem solving skills and the persistence needed to be a developer. Like events, it's important to view each hurdle as a learning experience, every new error is an opportunity to grow.  
+						<br>
+						<br>
+						Recently, I completed a web development bootcamp where I learned JavaScript, Ruby on Rails, jQuery, HTML5/CSS3 and more. But, the greatest skill that I developed is the ability to quickly pick up new languages. Not only am I quick to get to work, but I welcome the challenge that new languages bring.
+						<br>
+						<br>
+						When I'm not coding, you might find me exploring Philly, gaming, or struggling to write comedy.
+						</p>
 			</div>
 		</div>
+
+
+
 
 
 		<div id="projects-wrapper">
@@ -125,21 +126,34 @@
 		</div>
 
 
-		<div id="bio-wrapper">
+
+
+		<div id="contact-wrapper">
 			<div class="sub-wrapper">
 
-					<span id="hi">Hi!</span>
-					<p id="bio-body">
-						My name is Greg and I am a full-stack web developer based in Philadelphia. Originally from an event management background, I picked up coding while seeking a more creative and analytical challenge. After years of working in events, I have the problem solving skills and the persistence needed to be a developer. Like events, it's important to view each hurdle as a learning experience, every new error is an opportunity to grow.  
-						<br>
-						<br>
-						Recently, I completed a web development bootcamp where I learned JavaScript, Ruby on Rails, jQuery, HTML5/CSS3 and more. But, the greatest skill that I developed is the ability to quickly pick up new languages. Not only am I quick to get to work, but I welcome the challenge that new languages bring.
-						<br>
-						<br>
-						When I'm not coding, you might find me exploring Philly, gaming, or struggling to write comedy.
-						</p>
+				<span id="contact-header">I'm available for full-time and freelance work, so let's get in touch:</span>
+
+					<div id="link-wrapper">
+
+						<ul id="contacters-1">
+							<a href="mailto:gkassee@gmail.com"><li class="contacters-each"><i class="fa fa-envelope" aria-hidden="true"><span class="contact-text"> Email</span></i></li></a>
+
+							<a target="_blank" href="GregKassee-July72016.pdf"><li class="contacters-each"><i class="fa fa-file-text-o" aria-hidden="true"></i><span class="contact-text"> Resume</span></i></li></a>
+						</ul>
+
+						<ul id="contacters-2">
+							<a target="_blank" href="https://github.com/gkassee"><li class="contacters-each"><i class="fa fa-github-square" aria-hidden="true"><span class="contact-text"> GitHub</span></i></li></a>
+
+							<a target="_blank" href="https://www.linkedin.com/in/gregkassee"><li class="contacters-each"><i class="fa fa-linkedin-square" aria-hidden="true"><span class="contact-text"> LinkedIn</span></i></li></a>
+						</ul>
+
+					</div>
+
 			</div>
 		</div>
+
+
+		
 
 
 </div>
