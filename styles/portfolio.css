@@ -55,7 +55,7 @@ header {
 	/*border: 1px solid white;*/
 	padding: 20px 15px 10px 35px;
 	opacity: .9;
-	border-bottom: 2px grey solid;	
+	border-bottom: 1px grey solid;	
 	background-color: #303030;
 	opacity: 0.95;
 }
@@ -183,8 +183,8 @@ header {
 	z-index: 1;
 	background: 
 		linear-gradient(
-      rgba(255, 73, 86, .8), 
-      rgba(255, 73, 86, .8)
+      rgba(255, 73, 86, .89), 
+      rgba(255, 73, 86, .89)
     ),
 	url(https://assets.econsultancy.com/images/0007/1726/train-repeat-615.gif);
 	background-size: 125%;
