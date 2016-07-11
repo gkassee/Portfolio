@@ -1,26 +1,26 @@
 $(document).ready(function() {
 
 
-	var images=new Array('http://images.boomsbeat.com/data/images/full/97527/14-jpg.jpg','https://stancecoalition.files.wordpress.com/2013/09/philadelphia-city-skyline-wp-long-goodbye.png');
-	var nextimage=0;
-	doSlideshow();
+	// var images=new Array('http://images.boomsbeat.com/data/images/full/97527/14-jpg.jpg','https://stancecoalition.files.wordpress.com/2013/09/philadelphia-city-skyline-wp-long-goodbye.png');
+	// var nextimage=0;
+	// doSlideshow();
 
-	function doSlideshow(){
-    if(nextimage >= images.length){
-    	nextimage = 0;
-    }
+	// function doSlideshow(){
+ //    if(nextimage >= images.length){
+ //    	nextimage = 0;
+ //    }
 
-    // $('#bio-wrapper').fadeOut(500, function() {
+ //    // $('#bio-wrapper').fadeOut(500, function() {
 
-    		$('#bio-wrapper').css('background-image','-webkit-linear-gradient(top,rgba(255, 73, 86, .9),rgba(255, 73, 86, .9)), url("'+images[nextimage++]+'")').fadeIn(function(){
-        		setTimeout(doSlideshow, 5000);
-   			});
+ //    		$('#bio-wrapper').css('background-image','-webkit-linear-gradient(top,rgba(255, 73, 86, .9),rgba(255, 73, 86, .9)), url("'+images[nextimage++]+'")').fadeIn(function(){
+ //        		setTimeout(doSlideshow, 5000);
+ //   			});
 
-   		// $('#bio-wrapper').fadeIn(500);
+ //   		// $('#bio-wrapper').fadeIn(500);
 
-    // });
+ //    // });
     
-	}
+	// }
 
 
 

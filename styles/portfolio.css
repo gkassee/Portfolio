@@ -57,7 +57,7 @@ header {
 	opacity: .9;
 	border-bottom: 2px grey solid;	
 	background-color: #303030;
-	opacity: 0.97;
+	opacity: 0.95;
 }
 
 #me {
@@ -181,11 +181,14 @@ header {
 	width: 100%;
 	margin: 0;
 	z-index: 1;
-	background-color: #FF4956;
+	background: 
+		linear-gradient(
+      rgba(255, 73, 86, .85), 
+      rgba(255, 73, 86, .85)
+    ),
+	url(http://i.imgur.com/mrGczRO.gif);
 	background-size: 100%;
 	height: 74%;
-	background-image: none;
-	
 }
 
 #hi {
@@ -452,7 +455,7 @@ header {
 #contact-wrapper {
   overflow: auto;
 	z-index: 1;
-  padding: 11% 0 5% 0;
+  padding: 7% 0 9% 0;
 	background: 
 		linear-gradient(
       rgba(13, 196, 120, .68), 
@@ -706,10 +709,14 @@ i {
 		-webkit-transition: background-image 10s linear;
 	  padding: 12% 0 30% 0;
 		width: 100%;
-		background-color: #FF4956;
+		background: 
+			linear-gradient(
+	      rgba(255, 73, 86, .85), 
+	      rgba(255, 73, 86, .85)
+	    ),
+		url(http://i.imgur.com/mrGczRO.gif);
 		background-size: 1200px;
   	background-position: center;
-		background-image: none;
 	}
 
 	#hi {;
@@ -1095,10 +1102,14 @@ i {
 			-webkit-transition: background-image 10s linear;
 		  padding: 12% 0 30% 0;
 			width: 100%;
-			background-color: #FF4956;
-			background-size: 1200px;
-	  	background-position: center;
-			background-image: none;
+			background: 
+				linear-gradient(
+	      	rgba(255, 73, 86, .85), 
+	      	rgba(255, 73, 86, .85)
+	    	),
+			url(http://i.imgur.com/mrGczRO.gif);
+			background-size: 350%;
+	  	background-position: right;
 		}
 
 		#hi {;
@@ -1159,7 +1170,7 @@ i {
 		      rgba(0, 149, 249, .78)
 		    ),
 			url(https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c2e7dbd2b4f1263ea3fa717973d00809);
-			background-size: 1300px;
+			background-size: 350%;
 	    background-position: right;
 			height: 77%;
 			width: 100%;
@@ -1319,7 +1330,7 @@ i {
 	      rgba(13, 196, 120, .68)
 	    ),
 		url(https://images.unsplash.com/photo-1434296159862-a6c213a9316f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e1be860fcc08d547ee85d6d933f62bd);
-		background-size: 1200px;
+		background-size: 350%;
 	  background-position: center;
 		height: 80%;
 		width: 100%;
@@ -1480,10 +1491,14 @@ i {
 			-webkit-transition: background-image 10s linear;
 		  padding: 20% 0 30% 0;
 			width: 100%;
-			background-color: #FF4956;
-			background-size: 1200px;
-	  	background-position: center;
-			background-image: none;
+			background-size: 300%;
+			background: 
+				linear-gradient(
+	      	rgba(255, 73, 86, .85), 
+	      	rgba(255, 73, 86, .85)
+	    	),
+			url(http://i.imgur.com/mrGczRO.gif);
+	  	background-position: right;
 		}
 
 		#hi {;
@@ -1544,7 +1559,7 @@ i {
 		      rgba(0, 149, 249, .78)
 		    ),
 			url(https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c2e7dbd2b4f1263ea3fa717973d00809);
-			 background-size: 1350px;
+			background-size: 340%;
 	    background-position: right;
 			height: 77%;
 			width: 100%;
@@ -1704,7 +1719,7 @@ i {
 	      rgba(13, 196, 120, .68)
 	    ),
 		url(https://images.unsplash.com/photo-1434296159862-a6c213a9316f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e1be860fcc08d547ee85d6d933f62bd);
-		background-size: 1350px;
+		background-size: 300%;
 	  background-position: center;
 		height: 80%;
 		width: 100%;
@@ -1863,10 +1878,14 @@ i {
 			-webkit-transition: background-image 10s linear;
 		  padding: 10% 0 20% 0;
 			width: 100%;
-			background-color: #FF4956;
-			background-size: 1200px;
-	  	background-position: center;
-			background-image: none;
+			background-size: 200%;
+			background: 
+				linear-gradient(
+	      	rgba(255, 73, 86, .85), 
+	      	rgba(255, 73, 86, .85)
+	    	),
+			url(http://i.imgur.com/mrGczRO.gif);
+	  	background-position: right;
 		}
 
 		#hi {;
@@ -1927,7 +1946,7 @@ i {
 		      rgba(0, 149, 249, .78)
 		    ),
 			url(https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c2e7dbd2b4f1263ea3fa717973d00809);
-			 background-size: 2000px;
+			background-size: 200%;
 	    background-position: right;
 			height: 77%;
 			width: 100%;
@@ -2087,7 +2106,7 @@ i {
 	      rgba(13, 196, 120, .68)
 	    ),
 		url(https://images.unsplash.com/photo-1434296159862-a6c213a9316f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e1be860fcc08d547ee85d6d933f62bd);
-		background-size: 2800px;
+		background-size: 200%;
 	  background-position: center;
 		height: 80%;
 		width: 100%;
