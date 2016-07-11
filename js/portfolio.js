@@ -1,13 +1,36 @@
 $(document).ready(function() {
 
 
+	var images=new Array('http://images.boomsbeat.com/data/images/full/97527/14-jpg.jpg','https://stancecoalition.files.wordpress.com/2013/09/philadelphia-city-skyline-wp-long-goodbye.png');
+	var nextimage=0;
+	doSlideshow();
+
+	function doSlideshow(){
+    if(nextimage >= images.length){
+    	nextimage = 0;
+    }
+
+    // $('#bio-wrapper').fadeOut(500, function() {
+
+    		$('#bio-wrapper').css('background-image','-webkit-linear-gradient(top,rgba(255, 73, 86, .9),rgba(255, 73, 86, .9)), url("'+images[nextimage++]+'")').fadeIn(function(){
+        		setTimeout(doSlideshow, 5000);
+   			});
+
+   		// $('#bio-wrapper').fadeIn(500);
+
+    // });
+    
+	}
+
+
+
 
 
 
 
   $('#contact-button').click(function() {
 
-		$('header').css('background-image', 'url(https://s31.postimg.org/ns9l9namz/contact_pattern.png)');
+		// $('header').css('background-image', 'url(https://s31.postimg.org/ns9l9namz/contact_pattern.png)');
 
 		$('#lightbox').css('opacity', '0.92');
 
@@ -30,7 +53,7 @@ $(document).ready(function() {
 
 	$('#projects-button').click(function() {
 
-		$('header').css('background-image', 'url(https://s32.postimg.org/6ds3m8pxh/projects_pattern.png)');
+		// $('header').css('background-image', 'url(https://s32.postimg.org/6ds3m8pxh/projects_pattern.png)');
 
 		$('#lightbox').css('opacity', '0.92');
 
@@ -53,7 +76,7 @@ $(document).ready(function() {
 
 	$('#bio-button').click(function() {
 
-		$('header').css('background-image', 'url(https://s-media-cache-ak0.pinimg.com/236x/c5/31/0c/c5310cd8e766595915405683d7bd3cb1.jpg)');
+		// $('header').css('background-image', 'url(https://s-media-cache-ak0.pinimg.com/236x/c5/31/0c/c5310cd8e766595915405683d7bd3cb1.jpg)');
 
 		$('#lightbox').css('opacity', '0.97');
 
