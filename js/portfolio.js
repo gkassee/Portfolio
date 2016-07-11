@@ -22,6 +22,24 @@ $(document).ready(function() {
     
 	// }
 
+	
+
+// 	$(window).scroll(function() {
+//     var y_scroll_pos = window.pageYOffset;
+//     var scroll_pos_test = 150;             
+// 	// set to whatever you want it to be
+
+//     if($('#contact-wrapper') == visible) {
+// 	   	$('.my_name').removeClass("my_name_red");
+// 			$('.my_name').removeClass("my_name_blue");
+// 			$('.my_name').addClass("my_name_green");
+// 			$('#my_title').css({'color':'#0DC478'}, 500);
+//     }
+// 	else
+// 	{
+// 		$("body").css("background-color","#FFF");
+// 	}
+// });
 
 
 
@@ -30,9 +48,6 @@ $(document).ready(function() {
 
   $('#contact-button').click(function() {
 
-		// $('header').css('background-image', 'url(https://s31.postimg.org/ns9l9namz/contact_pattern.png)');
-
-		$('#lightbox').css('opacity', '0.92');
 
 		$('.my_name').removeClass("my_name_red");
 		$('.my_name').removeClass("my_name_blue");
@@ -53,9 +68,6 @@ $(document).ready(function() {
 
 	$('#projects-button').click(function() {
 
-		// $('header').css('background-image', 'url(https://s32.postimg.org/6ds3m8pxh/projects_pattern.png)');
-
-		$('#lightbox').css('opacity', '0.92');
 
 		$('.my_name').removeClass("my_name_green");
 		$('.my_name').removeClass("my_name_red");

@@ -159,7 +159,7 @@ header {
 	display: inline;
 	color: lightgrey;
 	text-align: center;
-	margin: 0px 30px 0px 30px
+	margin: 0px 30px 0px 30px;
 	/*margin-right: 10px;*/
 }
 
@@ -187,7 +187,8 @@ header {
       rgba(255, 73, 86, .8)
     ),
 	url(https://assets.econsultancy.com/images/0007/1726/train-repeat-615.gif);
-	background-size: 100%;
+	background-size: 125%;
+	background-position: right;
 	height: 74%;
 }
 
@@ -202,6 +203,7 @@ header {
 	background-color: white;
 	border-radius: 100%;
 	margin-right: 2%;
+	opacity: .8;
 }
 
 #code {
@@ -214,6 +216,7 @@ header {
 	background-color: white;
 	border-radius: 100%;
 	margin-left: 2%;
+	opacity: .8;
 }
 
 #bike {
@@ -226,6 +229,7 @@ header {
 	background-color: white;
 	border-radius: 100%;
 	margin-right: 2%;
+	opacity: .8;
 }
 
 #bio-p1 {
@@ -711,12 +715,12 @@ i {
 		width: 100%;
 		background: 
 			linear-gradient(
-	      rgba(255, 73, 86, .85), 
-	      rgba(255, 73, 86, .85)
+	      rgba(255, 73, 86, .9), 
+	      rgba(255, 73, 86, .9)
 	    ),
-		url(http://i.imgur.com/mrGczRO.gif);
-		background-size: 1200px;
-  	background-position: center;
+		url(https://assets.econsultancy.com/images/0007/1726/train-repeat-615.gif);
+		background-size: 450%;
+  	background-position: right;
 	}
 
 	#hi {;
@@ -1102,14 +1106,14 @@ i {
 			-webkit-transition: background-image 10s linear;
 		  padding: 12% 0 30% 0;
 			width: 100%;
-			background: 
-				linear-gradient(
-	      	rgba(255, 73, 86, .85), 
-	      	rgba(255, 73, 86, .85)
-	    	),
-			url(http://i.imgur.com/mrGczRO.gif);
-			background-size: 350%;
-	  	background-position: right;
+		background: 
+			linear-gradient(
+	      rgba(255, 73, 86, .9), 
+	      rgba(255, 73, 86, .9)
+	    ),
+		url(https://assets.econsultancy.com/images/0007/1726/train-repeat-615.gif);
+		background-size: 450%;
+  	background-position: right;
 		}
 
 		#hi {;
@@ -1491,13 +1495,13 @@ i {
 			-webkit-transition: background-image 10s linear;
 		  padding: 20% 0 30% 0;
 			width: 100%;
-			background-size: 300%;
 			background: 
 				linear-gradient(
-	      	rgba(255, 73, 86, .85), 
-	      	rgba(255, 73, 86, .85)
-	    	),
-			url(http://i.imgur.com/mrGczRO.gif);
+		      rgba(255, 73, 86, .9), 
+		      rgba(255, 73, 86, .9)
+		    ),
+			url(https://assets.econsultancy.com/images/0007/1726/train-repeat-615.gif);
+			background-size: 450%;
 	  	background-position: right;
 		}
 
