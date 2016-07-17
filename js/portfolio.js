@@ -1,47 +1,18 @@
 $(document).ready(function() {
 
+	$('#hi').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 1500);
 
-	// var images=new Array('http://images.boomsbeat.com/data/images/full/97527/14-jpg.jpg','https://stancecoalition.files.wordpress.com/2013/09/philadelphia-city-skyline-wp-long-goodbye.png');
-	// var nextimage=0;
-	// doSlideshow();
+	$('#bio-p1').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2000);
 
-	// function doSlideshow(){
- //    if(nextimage >= images.length){
- //    	nextimage = 0;
- //    }
+	$('#code').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2500);
 
- //    // $('#bio-wrapper').fadeOut(500, function() {
+	$('#bio-p2').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 3000);
 
- //    		$('#bio-wrapper').css('background-image','-webkit-linear-gradient(top,rgba(255, 73, 86, .9),rgba(255, 73, 86, .9)), url("'+images[nextimage++]+'")').fadeIn(function(){
- //        		setTimeout(doSlideshow, 5000);
- //   			});
+	$('#bike').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 3500);
 
- //   		// $('#bio-wrapper').fadeIn(500);
+	$('#bio-p3').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 4000);
 
- //    // });
-    
-	// }
-
-	
-
-// 	$(window).scroll(function() {
-//     var y_scroll_pos = window.pageYOffset;
-//     var scroll_pos_test = 150;             
-// 	// set to whatever you want it to be
-
-//     if($('#contact-wrapper') == visible) {
-// 	   	$('.my_name').removeClass("my_name_red");
-// 			$('.my_name').removeClass("my_name_blue");
-// 			$('.my_name').addClass("my_name_green");
-// 			$('#my_title').css({'color':'#0DC478'}, 500);
-//     }
-// 	else
-// 	{
-// 		$("body").css("background-color","#FFF");
-// 	}
-// });
-
-
+	$('#bio-button').css({'color': '#FF4956', 'border-bottom': '1px solid #FF4956', 'font-weight': '500'});
 
 
 
@@ -52,11 +23,11 @@ $(document).ready(function() {
 		$('.my_name').removeClass("my_name_red");
 		$('.my_name').removeClass("my_name_blue");
 		$('.my_name').addClass("my_name_green");
-		$('#my_title').css({'color':'#0DC478'}, 500);
+		$('#me').css('border', '6px #0DC478 solid');
 
-		$('#contact-button').animate({'color': '#0DC478'}, 500);
-		$('#projects-button').animate({'color': 'white'}, 500);
-		$('#bio-button').animate({'color': 'white'}, 500);
+		$('#contact-button').css({'color': '#0DC478', 'border-bottom': '1px solid #0DC478', 'font-weight': '500'});
+		$('#projects-button').css({'color': '#303030', 'border': '0px solid #0DC478', 'font-weight': '300'});
+		$('#bio-button').css({'color': '#303030', 'border': '0px solid #0DC478', 'font-weight': '300'});
 
 		$('body').animate({
         scrollTop: $("#contact-wrapper").offset().top
@@ -72,11 +43,11 @@ $(document).ready(function() {
 		$('.my_name').removeClass("my_name_green");
 		$('.my_name').removeClass("my_name_red");
 		$('.my_name').addClass("my_name_blue");
-		$('#my_title').css({'color':'#0095F9'}, 500);
+		$('#me').css('border', '6px #0095F9 solid');
 
-		$('#projects-button').animate({'color': '#0095F9'}, 500);
-		$('#contact-button').animate({'color': 'white'}, 500);
-		$('#bio-button').animate({'color': 'white'}, 500);
+		$('#projects-button').css({'color': '#0095F9', 'border-bottom': '1px solid #0095F9', 'font-weight': '500'});
+		$('#contact-button').css({'color': '#303030', 'border': '0px solid #0DC478', 'font-weight': '300'});
+		$('#bio-button').css({'color': '#303030', 'border': '0px solid #0DC478', 'font-weight': '300'});
 
 		$('body').animate({
         scrollTop: $("#projects-wrapper").offset().top
@@ -88,18 +59,15 @@ $(document).ready(function() {
 
 	$('#bio-button').click(function() {
 
-		// $('header').css('background-image', 'url(https://s-media-cache-ak0.pinimg.com/236x/c5/31/0c/c5310cd8e766595915405683d7bd3cb1.jpg)');
-
-		$('#lightbox').css('opacity', '0.97');
-
 		$('.my_name').removeClass("my_name_green");
 		$('.my_name').removeClass("my_name_blue");
 		$('.my_name').addClass("my_name_red");
-		$('#my_title').css({'color':'#FF4956'}, 500);
+		$('#me').css('border', '6px #FF4956 solid');
+		// $('#my_title').css({'color':'#FF4956'}, 500);
 
-		$('#bio-button').animate({'color': '#FF4956'}, 500);
-		$('#contact-button').animate({'color': 'white'}, 500);
-		$('#projects-button').animate({'color': 'white'}, 500);
+		$('#bio-button').css({'color': '#FF4956', 'border-bottom': '1px solid #FF4956', 'font-weight': '500'});
+		$('#contact-button').css({'color': '#303030', 'border': '0px solid #0DC478', 'font-weight': '300'});
+		$('#projects-button').css({'color': '#303030', 'border': '0px solid #0DC478', 'font-weight': '300'});
 
 		$('body').animate({
         scrollTop: $("#bio-wrapper").offset().top
@@ -115,7 +83,7 @@ $('#bandly').click(function() {
 		$('#neighborino-content-wrapper').hide();
 		$('#jukebox-content-wrapper').hide();
 		$('#bandly-content-wrapper').show();
-		$('#bandly').css('border-bottom', '2px solid white');
+		$('#bandly').css('border-bottom', '2px solid #303030');
 		$('#neighborino').css('border-bottom', 'none');
 		$('#jukebox').css('border-bottom', 'none');
 	})
@@ -124,7 +92,7 @@ $('#bandly').click(function() {
 		$('#jukebox-content-wrapper').hide();
 		$('#bandly-content-wrapper').hide();
 		$('#neighborino-content-wrapper').show();
-		$('#neighborino').css('border-bottom', '2px solid white');
+		$('#neighborino').css('border-bottom', '2px solid #303030');
 		$('#bandly').css('border-bottom', 'none');
 		$('#jukebox').css('border-bottom', 'none');
 	})
@@ -133,7 +101,7 @@ $('#bandly').click(function() {
 		$('#neighborino-content-wrapper').hide();
 		$('#bandly-content-wrapper').hide();
 		$('#jukebox-content-wrapper').show();
-		$('#jukebox').css('border-bottom', '2px solid white');
+		$('#jukebox').css('border-bottom', '2px solid #303030');
 		$('#neighborino').css('border-bottom', 'none');
 		$('#bandly').css('border-bottom', 'none');
 	})
