@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/portfolio.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
   <script  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
-  <!-- <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:700|Lato:100,300,300italic,400,700,900' rel='stylesheet' type='text/css'> -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
   <script src="https://use.fontawesome.com/bcd99e97d3.js"></script>
 	<script src="js/portfolio.js"></script>
@@ -33,10 +32,6 @@
 				<span id="my_title">WEB DEVELOPER</span>
 			</div>
 
-
-			<!-- <div id="lightbox">
-  		</div> -->
-
 		</header>
 
 
@@ -48,15 +43,11 @@
 					<p id="bio-p1">
 					<span id="hi">Hi</span>
 						My name is Greg and I am a full-stack web developer based in Philadelphia. Originally from an event management background, I picked up coding while seeking a more creative and analytical challenge. After years of working in events, I have the problem solving skills and the persistence needed for web development. Like event management, it's important to view a hurdle as a learning experience, with each new error being an opportunity to grow.
-					</p>  
-						<!-- <br>
-						<br> -->
+					</p>
 					<p id="bio-p2">
 					<span id='code' class="fa fa-code" aria-hidden="true"></span>
 						Recently, I completed a web development bootcamp where I learned JavaScript, Ruby on Rails, jQuery, HTML5/CSS3 and more. But, the greatest skill that I developed is the ability to quickly pick up new languages. Not only am I quick to get to work, but I welcome the challenge that new languages bring.
 					</p>
-						<!-- <br>
-						<br> -->
 					<p id="bio-p3">
 					<span id='bike' class="fa fa-bicycle" aria-hidden="true"></span>
 					<br>
@@ -72,21 +63,12 @@
 		<div id="projects-wrapper">
 			<div class="sub-wrapper">
 
-					<div id="project-icons">
-
-							<span id="neighborino">NEIGHBORINO</span>
-
-							<span id="bandly">BANDLY TREE</span>
-
-							<span id="jukebox">JAVASCRIPT JUKEBOX</span>
-
-						</div>
-
 					<div id="neighborino-content-wrapper">
 
 						<a target="_blank" href='https://neighborino.herokuapp.com'><img src='./images/neighborino-screen.png' class='screens'></a>
 
 						<div id='neighborino-info'>
+							<b style='text-align: center'>NEIGHBORINO</b>
 							<p>
 							A message board designed to bring neighborhoods together, Neighborino allows users to communicate with members within a 1 mile radius of their location. 
 							<div class="tool-wrapper">
@@ -105,6 +87,7 @@
 						<a target="_blank" href='https://github.com/hossainamzad/Bandly_tree'><img src='./images/bandly-screen.png' class='screens'></a>
 
 						<div id='bandly-info'>
+							<b style='text-align: center'>BANDLY TREE</b>
 							<p>
 							A single page application that allows users to explore the musical influences of their favorite musicians.
 							<div class="tool-wrapper">
@@ -123,6 +106,7 @@
 						<a target="_blank" href='http://nycda.zone/gregory765/Jukebox_Object_Oriented_JavaScript/'><img src='./images/jukebox-screen.png' class='screens'></a>
 
 						<div id='jukebox-info'>
+							<b style='text-align: center'>JAVASCRIPT JUKEBOX</b>
 							<p>
 							A simple music player that allows users to cycle through a pre-selected playlist of songs and add their own songs to the mix.
 							<div class="tool-wrapper">
@@ -132,8 +116,18 @@
 						</div>
 					</div>
 
+
+
+					<div id='nav-controls'>
+
+						<span id="backward"> <i class="fa fa-caret-left" aria-hidden="true"></i> </span>
+						 <span id="forward"> <i class="fa fa-caret-right" aria-hidden="true"></i> </span>
+
+					</div>
+
 			</div>
 		</div>
+
 
 
 
@@ -141,23 +135,27 @@
 		<div id="contact-wrapper">
 			<div class="sub-wrapper">
 
-				<span id="contact-header">I'm available for full-time and freelance work, so let's get in touch:</span>
+				<span id="contact-header">Looking for someone to join your team? I'm available for full-time and freelance work, so let's get in touch:</span>
 
 					<div id="link-wrapper">
 
-						<ul id="contacters-1">
-							<a href="mailto:gkassee@gmail.com"><li class="contacters-each"><i class="fa fa-envelope" aria-hidden="true"><span class="contact-text"> Email</span></i></li></a>
+							<a href="mailto:gkassee@gmail.com"><li class="contacters-each" id="email-button"><i class="fa fa-envelope-o" aria-hidden="true"></i><!--  <span class="contacter-text">Email</span> --></i></li></a>
 
-							<a target="_blank" href="GregKassee-July72016.pdf"><li class="contacters-each"><i class="fa fa-file-text-o" aria-hidden="true"></i><span class="contact-text"> Resume</span></i></li></a>
-						</ul>
+							<a target="_blank" href="GregKassee-July72016.pdf"><li class="contacters-each" id="resume-button"><i class="fa fa-file-text-o" aria-hidden="true"></i><span class="contact-text"></span><!-- <span class="contacter-text">Resume</span> --></i></li></a>
 
-						<ul id="contacters-2">
-							<a target="_blank" href="https://github.com/gkassee"><li class="contacters-each"><i class="fa fa-github-square" aria-hidden="true"><span class="contact-text"> GitHub</span></i></li></a>
+							<a target="_blank" href="https://www.linkedin.com/in/gregkassee"><li class="contacters-each" id="linkedin-button"><i class="fa fa-linkedin" aria-hidden="true"></i><span class="contact-text"></span><!-- <span class="contacter-text">LinkedIn</span> --></i></li></a>
 
-							<a target="_blank" href="https://www.linkedin.com/in/gregkassee"><li class="contacters-each"><i class="fa fa-linkedin-square" aria-hidden="true"><span class="contact-text"> LinkedIn</span></i></li></a>
-						</ul>
+							<a target="_blank" href="https://github.com/gkassee"><li class="contacters-each" id="github-button"><i class="fa fa-github" aria-hidden="true"></i><span class="contact-text"></span><!-- <span class="contacter-text">GitHub</span> --></i></li></a>
 
 					</div>
+
+					<span id="email-line">Send me an <b>email</b>.</span>
+
+					<span id="resume-line">Take a look at my <b>resume</b>.</span>
+
+					<span id="github-line">Check out my code on <b>GitHub</b>.</span>
+
+					<span id="linkedin-line">Let's get connected on <b>LinkedIn</b>.</span>
 
 			</div>
 		</div>
