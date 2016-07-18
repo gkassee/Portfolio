@@ -427,6 +427,7 @@ header {
 	font-size: 4em;
 	margin-right: 2%;
 	opacity: 0.3;
+	cursor: pointer;
 }
 
 #backward:hover {
@@ -437,6 +438,7 @@ header {
 	font-size: 4em;
 	margin-left: 2%;
 	opacity: 0.3;
+	cursor: pointer;
 }
 
 #forward:hover {
