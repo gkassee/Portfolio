@@ -2,15 +2,15 @@ $(document).ready(function() {
 
 	$('#hi').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 1500);
 
-	$('#bio-p1').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2000);
+	$('#bio-p1').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 1700);
 
-	$('#code').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2500);
+	$('#code').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2000);
 
-	$('#bio-p2').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 3000);
+	$('#bio-p2').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2300);
 
-	$('#bike').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 3500);
+	$('#bike').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2600);
 
-	$('#bio-p3').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 4000);
+	$('#bio-p3').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 2900);
 
 	$('#bio-button').css({'color': '#FF4956', 'border-bottom': '1px solid #FF4956', 'font-weight': '300'});
 
